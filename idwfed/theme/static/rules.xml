@@ -298,9 +298,18 @@
                                 </div>
                                 <div class="item-text">
                                     <p class="title">
-                                        <xsl:copy-of css:select="h2 > a" />
+                                        <!--<xsl:copy-of css:select="h2 > a" />-->
+                                        <xsl:element name="a">
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of select="h2/a/@href" />
+                                            </xsl:attribute>
+                                            <xsl:value-of select="substring(h2, 1, 59 + string-length(substring-before(substring(h2, 60),' ')))" />
+                                        </xsl:element>
                                     </p>
-                                    <p><xsl:value-of css:select="p.description" /></p>
+                                    <p>
+                                        <!--<xsl:value-of css:select="p.description" />-->
+                                        <xsl:value-of select="substring(p, 1, 139 + string-length(substring-before(substring(p, 140),' ')))" />
+                                    </p>
                                 </div>
                         </dd>
                     </xsl:for-each>
