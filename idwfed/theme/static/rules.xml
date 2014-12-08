@@ -237,7 +237,15 @@
                     <dd>
                         <ul>
                             <xsl:for-each css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.cover-collection-tile.tile-content > .collection-item">
-                                <li><xsl:copy-of css:select="h2 a" /></li>
+                                <li>
+                                    <!--<xsl:copy-of css:select="h2 a" />-->
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="h2/a/@href" />
+                                        </xsl:attribute>
+                                        <xsl:value-of select="substring(h2, 1, 59 + string-length(substring-before(substring(h2, 60),' ')))" />
+                                    </xsl:element>
+                                </li>
                             </xsl:for-each>
                         </ul>    
                     </dd>
