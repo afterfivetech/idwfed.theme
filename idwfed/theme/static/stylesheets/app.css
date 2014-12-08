@@ -7938,7 +7938,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     text-align: center;
     font-size: 65px;
     font-family: 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    z-index: 3; }
+    z-index: 14; }
     .join-wrapper a {
       color: white;
       text-shadow: -1px 1px 5px #00033f;
