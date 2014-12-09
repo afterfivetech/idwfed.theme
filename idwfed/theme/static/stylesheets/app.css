@@ -6924,9 +6924,8 @@ body {
     content: '';
     display: inherit; }
   .top-colorstrip #portal-languageselector li:before {
-    content: '*';
+    content: '-';
     color: #ececec;
-    vertical-align: middle;
     margin: 0 3px; }
 
 .nav-container {
