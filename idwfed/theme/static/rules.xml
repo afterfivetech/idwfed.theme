@@ -62,25 +62,6 @@
         <replace css:theme-children="ul.mobile-menu"
             css:content-children="#portal-globalnav"/>
         
-        <drop css:theme=".lang-container" css:if-not-content="#portal-languageselector" />
-        <replace css:theme-children='.lang-container'>
-            <xsl:variable name='title_tag' select="html/head/title"/>
-            <select onchange="location = this.options[this.selectedIndex].value;">
-                <option>Translate</option>
-                <xsl:for-each css:select="#portal-languageselector li">
-                    <xsl:element name="option">
-                        <xsl:attribute name="value">
-                            <xsl:value-of select="a/@href" />
-                        </xsl:attribute>
-                        <xsl:variable name='option_val' select='a'/>
-                        <xsl:if test="contains($title_tag, $option_val)">
-                            <xsl:attribute name='selected'/>
-                        </xsl:if>
-                        <xsl:value-of select="a" />
-                    </xsl:element>
-                </xsl:for-each>
-            </select>
-        </replace>
             <!--mobile language-->
         <replace css:theme-children="ul.mobile-languageselector"
             css:content-children="#portal-languageselector"/>
@@ -140,7 +121,8 @@
             </form>
         </replace>
         
-        <before css:theme=".lang-container" css:content="#portal-personaltools" />
+        <replace css:theme="#portal-personaltools" css:content="#portal-personaltools" />
+        <replace css:theme="#portal-languageselector" css:content="#portal-languageselector" />
         
         <!--homepage-->
         <rules css:if-content=".portaltype-collective-cover-content.template-view">
