@@ -157,7 +157,7 @@
                                     <xsl:attribute name="alt">
                                         <xsl:value-of css:select="a .unslider-slide-content h1" />
                                     </xsl:attribute>
-                                    <xsl:attribute name="src">http://dummyimage.com/1400x500/000/ffffff.gif</xsl:attribute>
+                                    <xsl:attribute name="src"></xsl:attribute>
                                 </xsl:element>
                             </xsl:element>
                         </xsl:element>
