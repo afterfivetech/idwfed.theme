@@ -6962,29 +6962,71 @@ h1.title {
       color: #007236; }
 
 /*navigation*/
-nav {
+nav.primary-nav {
+  float: left;
   color: white;
-  font-family: 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
-  nav ul {
+  font-family: 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  nav.primary-nav ul {
     font-size: 14px;
     font-weight: bold;
     list-style: none;
     padding: 0;
-    margin: 0; }
-    nav ul li {
+    margin: 0;
+    position: relative; }
+    nav.primary-nav ul li {
       float: left;
       padding-top: 5px; }
-      nav ul li a {
-        color: white; }
-      nav ul li a:hover {
-        color: #00033f; }
-    nav ul li:after {
+      nav.primary-nav ul li a {
+        color: white;
+        text-transform: uppercase; }
+    nav.primary-nav ul > li:after {
       content: '|';
       margin: 0 5px;
       color: white; }
-    nav ul li:last-child:after {
-      content: ''; }
+    nav.primary-nav ul li.selected a, nav.primary-nav ul li:hover a {
+      color: #00033f; }
+    nav.primary-nav ul a.active {
+      color: #00033f; }
+    nav.primary-nav ul li:hover > ul {
+      display: block; }
+      nav.primary-nav ul li:hover > ul li:hover {
+        background: none #cccccc; }
+    nav.primary-nav ul ul {
+      display: none;
+      background: #8ec95f;
+      position: absolute;
+      z-index: 99; }
+      nav.primary-nav ul ul li {
+        float: none;
+        position: relative;
+        padding: 0;
+        width: 200px;
+        border-top: 1px solid #168e0e;
+        border-bottom: 1px solid #acf2a1; }
+        nav.primary-nav ul ul li a {
+          display: block;
+          text-transform: inherit;
+          padding: 0 5px;
+          font-weight: normal; }
+      nav.primary-nav ul ul li:after {
+        display: none; }
+      nav.primary-nav ul ul ul {
+        position: absolute;
+        left: 100%;
+        top: 0; }
+
+/*sub navigation*/
+nav.dropdown-menu {
+  margin: 20px 0; }
+  nav.dropdown-menu ul {
+    padding-bottom: 0;
+    border-bottom: none;
+    border-top: 1px dotted #333333; }
+    nav.dropdown-menu ul li {
+      font-size: 2.8em;
+      line-height: 1em;
+      padding: 20px 0 17px 0;
+      border-bottom: 1px dotted #333333; }
 
 /*language*/
 .lang-container {
@@ -7162,12 +7204,15 @@ nav {
     background-position: -303px -33px; }
 
 /*focus area*/
+.focus-container.home {
+  min-height: 400px; }
+
 .focus-container.inner {
-  background: url(http://idwfed.org/en/media/header_background.jpg) top right repeat #41515c; }
+  background: url(http://idwfed.org/en/media/header_background.jpg) top right repeat #41515c;
+  min-height: 100px; }
 
 .focus-container {
   background-color: #41515c;
-  min-height: 100px;
   position: relative; }
   .focus-container .tagline {
     color: white;
