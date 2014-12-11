@@ -11,6 +11,7 @@
 	
 	<div class="off-canvas-wrap canvas-wrapper" data-offcanvas>
         <div class="inner-wrap panel">
+			
             <nav class="mobile-menu show-for-small-up hide-for-large-up tab-bar">
               <section class="right-small">
                 <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
@@ -59,23 +60,63 @@
                 <div class="row">
                         
                     <!--main menu-->
-                    <nav class="show-for-large-up">
+                    <nav class="show-for-large-up primary-nav">
                         <ul id="portal-globalnav">
-                            <li class="selected"><a href="#">About</a></li>
+                            <li class="selected">
+							  <a href="#">About</a>
+							</li>
                             <li><a href="#">Our Model</a></li>
                             <li><a href="#">Where we Work</a></li>
                             <li><a href="#">Join</a></li>
                             <li><a href="#">Advocacy</a></li>
                             <li><a href="#">Resources</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li>
+							  <a href="#">Blog</a>
+							  <ul>
+								<li>
+								  <a href="#">Sub Menu 1</a>
+								  <ul>
+									<li><a href="">Sub Menu 1</a></li>
+									<li><a href="#">Sub Menu 2</a></li>
+									<li><a href="#">Sub Menu 3</a></li>
+									<li><a href="#">Sub Menu 4</a></li>		
+								  </ul>
+								</li>
+								<li><a href="#">Sub Menu 2</a></li>
+								<li><a href="#">Sub Menu 3</a></li>
+								<li><a href="#">Sub Menu 4</a></li>
+							  </ul>
+							</li>
+							<li><a id="nav-about">toggle about</a></li>	
                         </ul>
                     </nav>
-                    
                     <!--search form-->
                     <form class="searchform">
                         <input type="text" name="search-input" id="search-input" class="searchfield" placeholder="Search site" />
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
+					<div class="clearfix"></div>
+					
+					<nav id="about-nav" class="dropdown-menu" style="display: none">
+					  <div class="row">
+						<div class="large-6 columns">
+						  <ul>
+							<li><a href="">Sub Menu 1</a></li>
+							<li><a href="#">Sub Menu 2</a></li>
+							<li><a href="#">Sub Menu 3</a></li>
+							<li><a href="#">Sub Menu 4</a></li>		
+						  </ul>
+						</div>
+						<div class="large-6 columns">
+						  <ul>
+							<li><a href="">Sub Menu 1</a></li>
+							<li><a href="#">Sub Menu 2</a></li>
+							<li><a href="#">Sub Menu 3</a></li>
+							<li><a href="#">Sub Menu 4</a></li>		
+						  </ul>
+						</div>
+					  </div>
+					</nav>
                     
                 </div>
             </div>
@@ -96,7 +137,7 @@
                     <!--colored icons-->
                     <div class="top-icon-container">
 						<a class="share-icon share-rss" target="_blank" href="http://idwf.dev.inigo-tech.com/RSS" title="Follow on RSS"></a>
-						<a class="share-icon share-youtube" target="_blank" href="http://www.youtube.com/user/TheIDWN" title="Follow on Youtube"></a>
+						<a class="share-icon share-youtube" target="_blank" href="https://www.youtube.com/channel/UCtkpXyCkbQvoJmfOVyaSYeg" title="Follow on Youtube"></a>
 						<a class="share-icon share-flickr" target="_blank" href="https://www.flickr.com/photos/50764246@N06/" title="Follow on Flickr"></a>
 						<a class="share-icon share-twitter" target="_blank" href="https://twitter.com/IDWFED" title="Follow on Twitter"></a>
 						<a class="share-icon share-googleplus" target="_blank" href="https://plus.google.com/113734046304645650788/posts" title="Follow on Google Plus"></a>
@@ -106,78 +147,19 @@
             </header>
     
             <!--focus-container-->
-            <div class="focus-container">
-                <!-- Jssor Slider Begin -->
-                <div id="slider1_container" class="slider-container">
-                    <!-- Loading Screen -->
-                    <div class="slide-loading" u="loading">
-                        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
-                            top: 0px; left: 0px; width: 100%; height: 100%;">
-                        </div>
-                        <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
-                            top: 0px; left: 0px; width: 100%; height: 100%;">
-                        </div>
-                    </div>
-                    <!-- Slides Container -->
-                    <div class="slides-container" u="slides">
-                        <div class="slide-item">
-                            <img u="image" src="./stylesheets/images/slide.jpg" />
-                            <!--caption bar-->
-                            <div class="bar-container" u="any">
-                                <a href="#" class="sign-in">Sign In</a>
-                            </div>
-                            <div class="title-caption" u="caption" t="CLIP|LR" du="1000" t2="NO">
-                                Make your voice heard today!
-                            </div>
-                            <div class="slide-caption">
-                                <img class="bg-round" u="caption" t="RTT|10" t2="NO" src="./stylesheets/images/bg-round.svg" />
-                                <div class="join-us" u="caption" t="CLIP|LR" du="1000" t2="NO">
-                                    <a href="">JOIN US!</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide-item">
-                            <img u="image" src="./stylesheets/images/slide1.jpg" />
-                            <!--caption bar-->
-                            <div class="bar-container" u="any">
-                                <a href="#" class="sign-in">Sign In</a>
-                            </div>
-                            <div class="title-caption" u="caption" t="CLIP|LR" du="1000" t2="NO">
-                                YES! Decent works for domestic workers!
-                            </div>
-                            <div class="slide-caption">
-                                <img class="bg-round" u="caption" t="RTT|10" t2="NO" src="./stylesheets/images/bg-round.svg" />
-                                <div class="join-us" u="caption" t="CLIP|LR" du="1000" t2="NO">
-                                    <a href="">JOIN US!</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide-item">
-                            <img u="image" src="./stylesheets/images/slide2.jpg" 
-                            <!--caption bar-->
-                            <div class="bar-container" u="any">
-                                <a href="#" class="sign-in">Sign In</a>
-                            </div>
-                            <div class="title-caption" u="caption" t="CLIP|LR" du="1000" t2="NO">
-                                Make your voice heard today!
-                            </div>
-                            <div class="slide-caption">
-                                <img class="bg-round" u="caption" t="RTT|10" t2="NO" src="./stylesheets/images/bg-round.svg" />
-                                <div class="join-us" u="caption" t="CLIP|LR" du="1000" t2="NO">
-                                    <a href="">JOIN US!</a>
-                                </div>
-                            </div>
-                        </div>         
-                    </div>
-                    
-                    <!-- Arrow Left -->
-                    <span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px;"></span>
-                    <!-- Arrow Right -->
-                    <span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px"></span>
-                    <!-- Arrow Navigator Skin End -->
-                    <a style="display: none" href="http://www.jssor.com">javascript</a>
-                </div>
-                <!-- Jssor Slider End -->
+            <div class="focus-container home">
+              <ul id="demo1">
+				<li><a href="#"><img src="img/image-1.jpg" alt="This is caption 1"></a></li>
+				<li><a href="#"><img src="img/image-2.jpg"  alt="This is caption 2"></a></li>
+				<li><a href="#"><img src="img/image-4.jpg" alt="And this is some very long caption for slide 3. Yes, really long."></a></li>
+			  </ul>
+			  <div class="login-wrapper hide-for-small hide-for-medium show-for-large-up">
+                <a href="http://localhost:8080/idwf/en/login">Log in</a>
+              </div>
+			  <!--join-->
+			  <div class="join-wrapper">
+                <a href="#">Register Now!</a>
+              </div>
             </div><!--end focus-container-->
             
             <!--main-->
@@ -224,7 +206,7 @@
                     <div class="large-12 columns">
                         <!--tagline-->
                         <div class="tagline">
-                            &#8220;Uniting for domestic Workers Right!&#8221;
+                            "Uniting for domestic Workers Right!"
                         </div>
                     </div>
                 </div>
@@ -359,8 +341,8 @@
                 <div class="footer-bottom">
                     <div class="row">
                         <div class="large-8 columns">
-                            <p class="disclaimer"><span class="cc" style="font-family: 'cc icons';">c</span> 2014 International Domestic Workers Federation</p>
-                            <p class="sub-disclaimer">All Rights Reserved * Terms * Privacy * Disclaimer</p>
+                            <p class="disclaimer"><span class="cc" style="font-family: 'cc icons';">c</span> 2014 International Domestic workers Federation</p>
+                            <p class="sub-disclaimer">All Right Reserved * Terms * Privacy * Disclaimer</p>
                         </div>
                         <div class="large-4 columns">
                             <ul class="social-connect-wrapper row collapse">
@@ -368,7 +350,7 @@
                               <li class="social-gp large-2 medium-2 small-4 columns"><a href="https://plus.google.com/113734046304645650788/posts"><i class="fa fa-google-plus"></i></a></li>
                               <li class="social-tw large-2 medium-2 small-4 columns"><a href="https://twitter.com/IDWFED"><i class="fa fa-twitter"></i></a></li>
                               <li class="social-fl large-2 medium-2 small-4 columns"><a href="https://www.flickr.com/photos/50764246@N06/"><i class="fa fa-flickr"></i></a></li>
-                              <li class="social-yt large-2 medium-2 small-4 columns"><a href="http://www.youtube.com/user/TheIDWN"><i class="fa fa-youtube"></i></a></li>
+                              <li class="social-yt large-2 medium-2 small-4 columns"><a href="https://www.youtube.com/channel/UCtkpXyCkbQvoJmfOVyaSYeg"><i class="fa fa-youtube"></i></a></li>
                               <li class="social-rss large-2 medium-2 small-4 columns"><a href="http://idwf.dev.inigo-tech.com/RSS"><i class="fa fa-rss"></i></a></li>
                             </ul>
                         </div>
@@ -383,92 +365,20 @@
     <script src="js/jquery.min.js"></script> 
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
-    <script type="text/javascript" src="./js/jssor.slider.mini.js"></script>
+    <script src="js/slippry.min.js"></script>
     <script>
-        jQuery(document).ready(function ($) {
-
-            var _CaptionTransitions = [];
-            _CaptionTransitions["L"] = { $Duration: 900, x: 0.6, $Easing: { $Left: $JssorEasing$.$EaseInOutSine }, $Opacity: 2 };
-            _CaptionTransitions["R"] = { $Duration: 900, x: -0.6, $Easing: { $Left: $JssorEasing$.$EaseInOutSine }, $Opacity: 2 };
-            _CaptionTransitions["T"] = { $Duration: 900, y: 0.6, $Easing: { $Top: $JssorEasing$.$EaseInOutSine }, $Opacity: 2 };
-            _CaptionTransitions["B"] = { $Duration: 900, y: -0.6, $Easing: { $Top: $JssorEasing$.$EaseInOutSine }, $Opacity: 2 };
-            _CaptionTransitions["ZMF|10"] = { $Duration: 900, $Zoom: 11, $Easing: { $Zoom: $JssorEasing$.$EaseOutQuad, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 };
-            _CaptionTransitions["RTT|10"] = { $Duration: 900, $Zoom: 11, $Rotate: 1, $Easing: { $Zoom: $JssorEasing$.$EaseOutQuad, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInExpo }, $Opacity: 2, $Round: { $Rotate: 0.8} };
-            _CaptionTransitions["RTT|2"] = { $Duration: 900, $Zoom: 3, $Rotate: 1, $Easing: { $Zoom: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $Opacity: 2, $Round: { $Rotate: 0.5} };
-            _CaptionTransitions["RTTL|BR"] = { $Duration: 900, x: -0.6, y: -0.6, $Zoom: 11, $Rotate: 1, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInCubic }, $Opacity: 2, $Round: { $Rotate: 0.8} };
-            _CaptionTransitions["CLIP|LR"] = { $Duration: 900, $Clip: 15, $Easing: { $Clip: $JssorEasing$.$EaseInOutCubic }, $Opacity: 2 };
-            _CaptionTransitions["MCLIP|L"] = { $Duration: 900, $Clip: 1, $Move: true, $Easing: { $Clip: $JssorEasing$.$EaseInOutCubic} };
-            _CaptionTransitions["MCLIP|R"] = { $Duration: 900, $Clip: 2, $Move: true, $Easing: { $Clip: $JssorEasing$.$EaseInOutCubic} };
-
-            var options = {
-                $FillMode: 2,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
-                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
-                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
-                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
-
-                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
-                $SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
-                $SlideDuration: 800,                               //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
-                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
-                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
-                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
-                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
-                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
-                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
-                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
-                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
-                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
-
-                $CaptionSliderOptions: {                            //[Optional] Options which specifies how to animate caption
-                    $Class: $JssorCaptionSlider$,                   //[Required] Class to create instance to animate caption
-                    $CaptionTransitions: _CaptionTransitions,       //[Required] An array of caption transitions to play caption, see caption transition section at jssor slideshow transition builder
-                    $PlayInMode: 1,                                 //[Optional] 0 None (no play), 1 Chain (goes after main slide), 3 Chain Flatten (goes after main slide and flatten all caption animations), default value is 1
-                    $PlayOutMode: 3                                 //[Optional] 0 None (no play), 1 Chain (goes before main slide), 3 Chain Flatten (goes before main slide and flatten all caption animations), default value is 1
-                },
-
-                $BulletNavigatorOptions: {                          //[Optional] Options to specify and enable navigator or not
-                    $Class: $JssorBulletNavigator$,                 //[Required] Class to create navigator instance
-                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
-                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
-                    $SpacingX: 8,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
-                    $SpacingY: 8,                                   //[Optional] Vertical space between each item in pixel, default value is 0
-                    $Orientation: 1                                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
-                },
-
-                $ArrowNavigatorOptions: {                           //[Optional] Options to specify and enable arrow navigator or not
-                    $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
-                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
-                }
-            };
-
-            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-
-            //responsive code begin
-            //you can remove responsive code if you don't want the slider scales while window resizes
-            function ScaleSlider() {
-                var bodyWidth = document.body.clientWidth;
-                if (bodyWidth)
-                    jssor_slider1.$SetScaleWidth(Math.min(bodyWidth, 1920));
-                else
-                    window.setTimeout(ScaleSlider, 30);
-            }
-
-            ScaleSlider();
-
-            if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
-                $(window).bind('resize', ScaleSlider);
-            }
-
-
-            //if (navigator.userAgent.match(/(iPhone|iPod|iPad)/)) {
-            //    $(window).bind("orientationchange", ScaleSlider);
-            //}
-            //responsive code end
-        });
+      $(function() {
+		var demo1 = $("#demo1").slippry({
+			// transition: 'fade',
+			// useCSS: true,
+			// speed: 1000,
+			// pause: 3000,
+			// auto: true,
+			// preload: 'visible',
+			// autoHover: false
+			pager: false,
+		});
+	});
     </script>
   </body>
   </body>
