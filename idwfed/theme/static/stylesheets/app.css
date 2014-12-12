@@ -3,6 +3,7 @@
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
 /* FONT PATH
  * -------------------------- */
 @font-face {
@@ -6829,7 +6830,7 @@ select {
   padding-right: 1rem !important; }
 
 body {
-  font-size: 14px; }
+  font-size: 1rem; }
 
 .canvas-wrapper .panel {
   border: none !important;
@@ -6890,7 +6891,7 @@ body {
   .top-colorstrip ul {
     list-style: none;
     margin: 0;
-    font-size: 0.875rem; }
+    font-size: 0.7rem; }
     .top-colorstrip ul li {
       float: left; }
       .top-colorstrip ul li a {
@@ -6902,7 +6903,7 @@ body {
       color: white;
       font-weight: bold; }
   .top-colorstrip #portal-personaltools {
-    font-size: 0.875rem;
+    font-size: 0.7rem;
     float: right;
     margin: 0; }
     .top-colorstrip #portal-personaltools dt {
@@ -8728,6 +8729,13 @@ form[action="enl_subscribers_view"] input[type="submit"] {
 .byline-portrait {
   height: 24px;
   width: 24px; }
+
+/*description*/
+#content .documentDescription, #content #description {
+  color: #666666;
+  margin-left: 0;
+  font-size: 1.25em;
+  font-weight: bold; }
 
 #portal-column-content h1 a, #portal-column-content h2 a, #portal-column-content h3 a, #portal-column-content h4 a, #portal-column-content h5 a, #portal-column-content h6 a {
   color: #00033f; }
