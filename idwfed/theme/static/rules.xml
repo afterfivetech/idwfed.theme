@@ -27,6 +27,24 @@
         <drop css:content="dl.portlet-static-federacion-internacional-de-trabajadores-del-hogar" />
         <drop css:content="dl.portlet-static-federation-internationale-des-travailleurs" />
         
+        <!--google translate-->
+        <after css:theme-children="head">
+            <meta name="google-translate-customization" content="f4f63b6934ec3d8c-7df077016021aecb-g5f0ed3b05a341c54-e"></meta>
+        </after>
+        <after css:theme="#portal-languageselector">
+            <ul id="googletranlate">
+                <li>
+                    <div id="google_translate_element"></div>
+                    <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true, gaTrack: true, gaId: 'UA-49710053-1'}, 'google_translate_element');
+    }
+                    </script>
+                    <script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                </li>
+            </ul>
+        </after>
+        
         <replace css:theme="#logo">
             <xsl:element name="a">
                 <xsl:attribute name="href">

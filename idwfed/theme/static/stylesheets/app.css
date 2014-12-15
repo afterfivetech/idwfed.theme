@@ -6902,6 +6902,10 @@ body {
     .top-colorstrip ul li.currentLanguage a {
       color: white;
       font-weight: bold; }
+  .top-colorstrip #portal-languageselector {
+    float: none; }
+  .top-colorstrip #googletranlate #google_translate_element {
+    margin-left: 10px; }
   .top-colorstrip #portal-personaltools {
     font-size: 0.7rem;
     float: right;
