@@ -7450,7 +7450,8 @@ fieldset, .editionComment {
   color: Black;
   letter-spacing: -0.05em;
   margin: inherit -0.05em;
-  font-size: 2em;
+  font-size: 1.25em !important;
+  /*font-size: 2em;*/
   /* 26px equiv */
   font-weight: bold; }
 
