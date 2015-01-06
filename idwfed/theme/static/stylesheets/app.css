@@ -8716,6 +8716,9 @@ form[action="enl_subscribers_view"] input[type="submit"] {
   font-size: 0.61111rem; }
 
 /*faceted*/
+#center-and-left-area #left-area {
+  width: 24em; }
+
 .faceted_letter, .faceted-empty-column {
   color: inherit !important; }
 
