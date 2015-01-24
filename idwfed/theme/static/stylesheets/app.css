@@ -6988,7 +6988,7 @@ nav.primary-nav {
       content: '|';
       margin: 0 5px;
       color: white; }
-    nav.primary-nav ul li.selected a, nav.primary-nav ul li:hover a {
+    nav.primary-nav ul li.selected > a, nav.primary-nav ul li:hover > a {
       color: #00033f; }
     nav.primary-nav ul a.active {
       color: #00033f; }
@@ -6996,29 +6996,37 @@ nav.primary-nav {
       display: block; }
       nav.primary-nav ul li:hover > ul li:hover {
         background: none #cccccc; }
+    nav.primary-nav ul li:hover > div {
+      display: block; }
     nav.primary-nav ul ul {
       display: none;
       background: #8ec95f;
       position: absolute;
-      z-index: 99; }
+      z-index: 99;
+      padding: 10px; }
       nav.primary-nav ul ul li {
         float: none;
         position: relative;
-        padding: 0;
-        width: 200px;
-        border-top: 1px solid #168e0e;
-        border-bottom: 1px solid #acf2a1; }
+        padding: 5px 0;
+        min-width: 300px; }
         nav.primary-nav ul ul li a {
           display: block;
           text-transform: inherit;
           padding: 0 5px;
-          font-weight: normal; }
+          font-weight: bold; }
       nav.primary-nav ul ul li:after {
         display: none; }
       nav.primary-nav ul ul ul {
         position: absolute;
         left: 100%;
         top: 0; }
+    nav.primary-nav ul div {
+      display: none;
+      border: 1px solid black;
+      margin-top: -5px;
+      position: absolute;
+      padding: 10px;
+      background: none #8ec95f; }
 
 /*sub navigation*/
 nav.dropdown-menu {
@@ -8744,6 +8752,15 @@ form[action="enl_subscribers_view"] input[type="submit"] {
   margin-left: 0;
   font-size: 1.25em;
   font-weight: bold; }
+
+/*internallinkcontainer + radioscrolllist*/
+#internallinkcontainer.radioscrolllist .list.item {
+  padding: 0.5em; }
+  #internallinkcontainer.radioscrolllist .list.item span, #internallinkcontainer.radioscrolllist .list.item a {
+    margin-top: -5px; }
+
+#details-fields.widget.radioscrolllist .field .widget select, #details-fields.widget.radioscrolllist .field .widget input {
+  margin-bottom: 0 !important; }
 
 #portal-column-content h1 a, #portal-column-content h2 a, #portal-column-content h3 a, #portal-column-content h4 a, #portal-column-content h5 a, #portal-column-content h6 a {
   color: #00033f; }
