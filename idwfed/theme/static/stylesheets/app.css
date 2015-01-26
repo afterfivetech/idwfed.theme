@@ -7289,6 +7289,8 @@ section.main.home-main {
   text-transform: uppercase; }
   #sidebar-left dt.portletHeader a, #sidebar-right dt.portletHeader a {
     color: white; }
+#sidebar-left ol, #sidebar-left ul, #sidebar-right ol, #sidebar-right ul {
+  list-style: none; }
 
 /*theme portlet*/
 dl.theme-portlet {
