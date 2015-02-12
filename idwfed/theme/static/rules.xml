@@ -340,9 +340,9 @@
                                 
                             </xsl:element>
                         </div>
+                        <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > .cover-embed-tile.tile-content" />
                     </dd>
                 </dl>
-                <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > .cover-embed-tile.tile-content" />
             </replace>
             <!--partners-->
             <replace css:theme=".wrap-partners">
