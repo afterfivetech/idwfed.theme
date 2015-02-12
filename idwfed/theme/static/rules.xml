@@ -325,10 +325,13 @@
             <replace css:theme=".wrap-partner">
                 <dl class="theme-portlet wrap-partner">
                     <dt>
-                        <i class="fa fa-user theme-orange"></i>
+                        <i class="fa fa-twitter theme-orange"></i>
+                        <xsl:value-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > .cover-embed-tile.tile-content > h2" />
                         <xsl:value-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > div.cover-richtext-tile.tile-content > h2" />
                     </dt>
                     <dd>
+                        <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > .cover-embed-tile.tile-content > iframe" />
+                        <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > .cover-embed-tile.tile-content > script" />
                         <div class="partner text-center">
                             <xsl:element name="a">
                                 <xsl:attribute name="href">
@@ -340,7 +343,6 @@
                                 
                             </xsl:element>
                         </div>
-                        <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > .cover-embed-tile.tile-content" />
                     </dd>
                 </dl>
             </replace>
