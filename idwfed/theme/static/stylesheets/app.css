@@ -7457,7 +7457,7 @@ footer .footer-bottom {
   width: 100% !important; }
 
 /*FB activity*/
-.fb-recommendations.fb_iframe_widget {
+.fb-activity.fb_iframe_widget, .fb-recommendations.fb_iframe_widget {
   background: none white !important; }
 
 h2.portlet-title {
