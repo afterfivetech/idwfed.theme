@@ -7458,11 +7458,14 @@ footer .footer-bottom {
 
 /*FB activity*/
 .fb-activity.fb_iframe_widget, .fb-recommendations.fb_iframe_widget {
-  background: none white !important; }
+  background: none white !important;
+  width: 210px;
+  margin: 0 auto; }
 
 h2.portlet-title {
   display: block;
-  margin: 0;
+  margin: 0 auto;
+  width: 210px;
   background: none #8ec95f;
   padding: 5px 10px;
   color: white;
