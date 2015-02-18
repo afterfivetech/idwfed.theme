@@ -7279,6 +7279,8 @@ section.main.home-main {
     margin-right: 10px; }
 
 /*theme portlet*/
+#sidebar-left .portletWrapper, #sidebar-right .portletWrapper {
+  margin-bottom: 20px; }
 #sidebar-left dt.portletHeader, #sidebar-right dt.portletHeader {
   background: none #8ec95f;
   padding: 5px 10px;
@@ -7449,6 +7451,10 @@ footer .footer-bottom {
     height: 350px; }
   dl.f-top-portlet {
     padding-top: 5rem; } }
+
+/*DISQUS*/
+.discovery-posts .discovery-post {
+  width: 100% !important; }
 
 /* @group Forms */
 fieldset, .editionComment {
@@ -8148,7 +8154,8 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 /* added to the original element calling slippry */
 .sy-box.sy-loading {
-  background: url(./images/sy-loader.gif) 50% 50% no-repeat;
+  /*background: url(./images/sy-loader.gif) 50% 50% no-repeat;*/
+  background: none;
   -moz-background-size: 32px;
   -o-background-size: 32px;
   -webkit-background-size: 32px;
