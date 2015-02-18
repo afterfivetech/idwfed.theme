@@ -7457,19 +7457,20 @@ footer .footer-bottom {
   width: 100% !important; }
 
 /*FB activity*/
-.fb-recommendations.fb_iframe_widget {
+.fb-activity.fb_iframe_widget, .fb-recommendations.fb_iframe_widget {
   background: none white !important; }
 
 h2.portlet-title {
   display: block;
-  background: none #666666;
-  color: white;
-  padding: 0.42em 1em;
   margin: 0;
-  font-size: 1.2rem;
-  border-radius: 5px 5px 0 0;
-  width: 210px;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  background: none #8ec95f;
+  padding: 5px 10px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  border-radius: 0.5rem 0.5rem 0 0;
+  text-transform: uppercase; }
 
 /* @group Forms */
 fieldset, .editionComment {
