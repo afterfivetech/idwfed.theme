@@ -7279,6 +7279,8 @@ section.main.home-main {
     margin-right: 10px; }
 
 /*theme portlet*/
+#sidebar-left .portletWrapper, #sidebar-right .portletWrapper {
+  margin-bottom: 20px; }
 #sidebar-left dt.portletHeader, #sidebar-right dt.portletHeader {
   background: none #8ec95f;
   padding: 5px 10px;
