@@ -7457,22 +7457,19 @@ footer .footer-bottom {
   width: 100% !important; }
 
 /*FB activity*/
-.fb-activity .pluginSkinLight.pluginFontHelvetica {
-  font-family: 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important; }
-  .fb-activity .pluginSkinLight.pluginFontHelvetica div:nth-child(1) {
-    border: none !important; }
-    .fb-activity .pluginSkinLight.pluginFontHelvetica div:nth-child(1) div:nth-child(1) {
-      padding: 0.42em 1em !important;
-      background: #dddddd !important;
-      line-height: normal !important;
-      color: white !important;
-      font-size: 1.5rem !important;
-      border-radius: 0.5rem 0.5rem 0 0 !important;
-      text-transform: uppercase !important; }
-    .fb-activity .pluginSkinLight.pluginFontHelvetica div:nth-child(1) div:nth-child(2) {
-      background: none white !important;
-      padding: 0.42em 1em !important;
-      border-radius: 0 0 0.5rem 0.5rem !important; }
+.fb-recommendations.fb_iframe_widget {
+  background: none white !important; }
+
+h2.portlet-title {
+  display: block;
+  background: none #666666;
+  color: white;
+  padding: 0.42em 1em;
+  margin: 0;
+  font-size: 1.2rem;
+  border-radius: 5px 5px 0 0;
+  width: 210px;
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
 /* @group Forms */
 fieldset, .editionComment {
