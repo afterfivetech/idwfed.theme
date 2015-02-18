@@ -7452,6 +7452,10 @@ footer .footer-bottom {
   dl.f-top-portlet {
     padding-top: 5rem; } }
 
+/*DISQUS*/
+.discovery-posts .discovery-post {
+  width: 100% !important; }
+
 /* @group Forms */
 fieldset, .editionComment {
   line-height: 1.5em;
