@@ -7460,7 +7460,8 @@ footer .footer-bottom {
 .fb-activity.fb_iframe_widget, .fb-recommendations.fb_iframe_widget {
   background: none white !important;
   width: 210px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: block; }
 
 h2.portlet-title {
   display: block;
