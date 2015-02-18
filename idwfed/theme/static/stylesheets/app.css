@@ -8154,7 +8154,8 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 /* added to the original element calling slippry */
 .sy-box.sy-loading {
-  background: url(./images/sy-loader.gif) 50% 50% no-repeat;
+  /*background: url(./images/sy-loader.gif) 50% 50% no-repeat;*/
+  background: none;
   -moz-background-size: 32px;
   -o-background-size: 32px;
   -webkit-background-size: 32px;
