@@ -7453,8 +7453,10 @@ footer .footer-bottom {
     padding-top: 5rem; } }
 
 /*DISQUS*/
-.discovery-posts .discovery-post {
-  width: 100% !important; }
+#disqus_thread_wrapper {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0; }
 
 /*FB activity*/
 .fb-activity.fb_iframe_widget, .fb-recommendations.fb_iframe_widget {
