@@ -413,13 +413,39 @@
         <replace css:theme-children="div.footer-top > div > div:nth-child(2) > dl" css:content-children="#portlets-footer > div.cell.FooterPortletManager2 > div > dl" />
         <replace css:theme-children=".contact-us" css:content-children="#portlets-footer > div.cell.FooterPortletManager3 > div > dl" />
         <!--<replace css:theme-children=".signup-newsletter" css:content-children="#portlets-footer > div.cell.FooterPortletManager4 > div > dl" />-->
-        <replace css:theme-children=".signup-newsletter">
-            <dt>
-                <xsl:value-of css:select="#portlets-footer > div.cell.FooterPortletManager4 > div > div > h2" />
-            </dt>
-            <dd>
-                <xsl:copy-of css:select="#portlets-footer > div.cell.FooterPortletManager4 > div > div > #mc_embed_signup" />
-            </dd>
+        <replace css:theme-children=".footer-top > div > div:nth-child(4)">
+            <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager4 > div.portletWrapper">
+                <xsl:if test="div">
+                    <dl class="f-top-portlet signup-newsletter">
+                        <dt>
+                            <xsl:value-of css:select="div > h2" />
+                        </dt>
+                        <dd>
+                            <xsl:copy-of css:select="div > #mc_embed_signup" />
+                        </dd>
+                    </dl>
+                </xsl:if>
+                <xsl:if test="dl">
+                    <dl class="f-top-portlet signup-newsletter">
+                        <dt>
+                            <xsl:value-of css:select="dl > dt" />
+                        </dt>
+                        <xsl:copy-of css:select="dl > dd" />
+                    </dl>
+                </xsl:if>
+            </xsl:for-each>
+            <!--<dt>-->
+            <!--    <xsl:value-of css:select="#portlets-footer > div.cell.FooterPortletManager4 > div > div > h2" />-->
+            <!--</dt>-->
+            <!--<dd>-->
+            <!--    <xsl:copy-of css:select="#portlets-footer > div.cell.FooterPortletManager4 > div > div > #mc_embed_signup" />-->
+            <!--</dd>-->
+            <!--<xsl:copy-of css:select="#portlets-footer > div.cell.FooterPortletManager4 > div > dl.portlet > dt" />-->
+            <!--<xsl:copy-of css:select="#portlets-footer > div.cell.FooterPortletManager4 > div > dl.portlet > dd" />-->
+        </replace>
+        <!--footer bottom-->
+        <replace css:theme-children="p.sub-disclaimer">
+            All Right Reserved <a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/disclaimer">Disclaimer</a>
         </replace>
         
         <drop theme="/html/body/script" />

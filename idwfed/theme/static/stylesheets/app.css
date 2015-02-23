@@ -7417,7 +7417,12 @@ footer .footer-bottom {
     color: white;
     font-family: Choplin, Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
     footer .footer-bottom .sub-disclaimer a {
-      color: white; }
+      color: white;
+      margin-left: 5px; }
+    footer .footer-bottom .sub-disclaimer a:before {
+      content: "*";
+      display: inline-block;
+      margin-right: 5px; }
   footer .footer-bottom ul.social-connect-wrapper {
     list-style: none;
     /*.social-fb a{background-color: #54349D; color: #fff}
