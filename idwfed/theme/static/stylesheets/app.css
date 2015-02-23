@@ -7225,7 +7225,7 @@ nav.dropdown-menu {
   min-height: 100px; }
 
 .focus-container {
-  background-color: #41515c;
+  /*background-color: #41515c;*/
   position: relative; }
   .focus-container .tagline {
     color: white;
