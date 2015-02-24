@@ -232,13 +232,15 @@
                 <dl class="theme-portlet wrap-updates">
                     <dt>
                         <i class="fa fa-check-circle-o theme-orange"></i>
-                        <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.cover-collection-tile.tile-content > div.tile-header > h2" />
+                        <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > div.tile-header > h2" />
+                        <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > h2" />
                     </dt>
                     <dd>
+                        <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > p" />
+                        <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > a.imag" />
                         <ul>
-                            <xsl:for-each css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.cover-collection-tile.tile-content > .collection-item">
+                            <xsl:for-each css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > .collection-item">
                                 <li>
-                                    <!--<xsl:copy-of css:select="h2 a" />-->
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of select="h2/a/@href" />
@@ -251,7 +253,7 @@
                     </dd>
                     <dd style="padding:0;margin:0 10px;">
                         <p class="text-right" style="font-size:12px">
-                            <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.cover-collection-tile.tile-content > .tile-footer > a" />
+                            <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > .tile-footer > a" />
                         </p>                        
                     </dd>
                 </dl>
@@ -260,26 +262,31 @@
             <replace css:theme=".wrap-featured">
                 <div class="featured wrap-featured">
                     <div class="featured-img">
-                        <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.cover-basic-tile.tile-content > a.imag" />
+                        <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > a.imag" />
                     </div>
                     <div class="featured-text">
                         <p class="title">
-                            <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.cover-basic-tile.tile-content > h2 > a" />
+                            <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > h2 > a" />
                         </p>
-                        <p><xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.cover-basic-tile.tile-content > p" /></p>
+                        <p><xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > p" /></p>
                     </div>
                 </div>
             </replace>
             <!--campaign-->
             <replace css:theme=".wrap-campaign">
                 <dl class="theme-portlet wrap-campaign">
-                    <dt><i class="fa fa-globe theme-orange"></i> <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile.tile-default > div.cover-collection-tile.tile-content > div.tile-header > h2" /></dt>
+                    <dt>
+                        <i class="fa fa-globe theme-orange"></i> <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > div.tile-header > h2" />
+                        <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > h2" />
+                    </dt>
                     <dd>
-                        <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.cover-collection-tile.tile-content > .collection-item" />
+                        <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > p" />
+                        <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > a.imag" />
+                        <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > .collection-item" />
                     </dd>
                     <dd style="padding:0;margin:0 10px;">
                         <p class="text-right" style="font-size:12px">
-                            <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.cover-collection-tile.tile-content > .tile-footer > a" />
+                            <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > .tile-footer > a" />
                         </p>                        
                     </dd>
                 </dl>
@@ -289,16 +296,20 @@
                 <dl class="theme-portlet wrap-activities">
                     <dt>
                         <i class="fa fa-calendar theme-orange"></i>
-                        <xsl:value-of css:select="#content > div:nth-child(3) > div:nth-child(1) > div.tile > div.cover-collection-tile.tile-content > div.tile-header > h2" />
+                        <xsl:value-of css:select="#content > div:nth-child(3) > div:nth-child(1) > div.tile > div.tile-content > div.tile-header > h2" />
+                        <xsl:value-of css:select="#content > div:nth-child(3) > div:nth-child(1) > div.tile > div.tile-content > h2" />
                     </dt>
-                    <xsl:for-each css:select="#content > div:nth-child(3) > div:nth-child(1) > div.tile > div.cover-collection-tile.tile-content > .collection-item">
+                    <dd>
+                        <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(1) > div.tile > div.tile-content > p"/>
+                        <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(1) > div.tile > div.tile-content > a.imag"/>
+                    </dd>
+                    <xsl:for-each css:select="#content > div:nth-child(3) > div:nth-child(1) > div.tile > div.tile-content > .collection-item">
                         <dd>
                                 <div class="item-img">
                                     <xsl:copy-of css:select="a > img" />
                                 </div>
                                 <div class="item-text">
                                     <p class="title">
-                                        <!--<xsl:copy-of css:select="h2 > a" />-->
                                         <xsl:element name="a">
                                             <xsl:attribute name="href">
                                                 <xsl:value-of select="h2/a/@href" />
@@ -307,7 +318,6 @@
                                         </xsl:element>
                                     </p>
                                     <p>
-                                        <!--<xsl:value-of css:select="p.description" />-->
                                         <xsl:value-of select="substring(p, 1, 139 + string-length(substring-before(substring(p, 140),' ')))" />
                                     </p>
                                 </div>
@@ -316,7 +326,7 @@
                     
                     <dd style="padding:0;margin:0 10px;">
                         <p class="text-right" style="font-size:12px">
-                            <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(1) > div.tile > div.cover-collection-tile.tile-content > .tile-footer > a" />
+                            <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(1) > div.tile > div.tile-content > .tile-footer > a" />
                         </p>                        
                     </dd>
                 </dl>
@@ -326,19 +336,18 @@
                 <dl class="theme-portlet wrap-partner">
                     <dt>
                         <i class="fa fa-twitter theme-orange"></i>
-                        <xsl:value-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > .cover-embed-tile.tile-content > h2" />
-                        <xsl:value-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > div.cover-richtext-tile.tile-content > h2" />
+                        <xsl:value-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > div.tile-content > h2" />
                     </dt>
                     <dd>
-                        <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > .cover-embed-tile.tile-content" />
+                        <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > div.tile-content" />
                         <div class="partner text-center">
                             <xsl:element name="a">
                                 <xsl:attribute name="href">
                                     <xsl:value-of select="//*[@id='content']/div[3]/div[2]/div[2]/div/a/@href" />
                                 </xsl:attribute>
                                 <xsl:attribute name="class">item-link</xsl:attribute>
-                                <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile:nth-child(2) > div.cover-richtext-tile.tile-content > a > img" />
-                                <p class="title"><xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > div.cover-richtext-tile.tile-content > p" /></p>
+                                <xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile:nth-child(2) > div.tile-content > a > img" />
+                                <p class="title"><xsl:copy-of css:select="#content > div:nth-child(3) > div:nth-child(2) > div.tile > div.tile-content > p" /></p>
                                 
                             </xsl:element>
                         </div>
@@ -412,7 +421,6 @@
         <replace css:theme-children="div.footer-top > div > div:nth-child(1) > dl" css:content-children="#portlets-footer > div.cell.FooterPortletManager1 > div > dl" />
         <replace css:theme-children="div.footer-top > div > div:nth-child(2) > dl" css:content-children="#portlets-footer > div.cell.FooterPortletManager2 > div > dl" />
         <replace css:theme-children=".contact-us" css:content-children="#portlets-footer > div.cell.FooterPortletManager3 > div > dl" />
-        <!--<replace css:theme-children=".signup-newsletter" css:content-children="#portlets-footer > div.cell.FooterPortletManager4 > div > dl" />-->
         <replace css:theme-children=".footer-top > div > div:nth-child(4)">
             <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager4 > div.portletWrapper">
                 <xsl:if test="div">
@@ -434,14 +442,6 @@
                     </dl>
                 </xsl:if>
             </xsl:for-each>
-            <!--<dt>-->
-            <!--    <xsl:value-of css:select="#portlets-footer > div.cell.FooterPortletManager4 > div > div > h2" />-->
-            <!--</dt>-->
-            <!--<dd>-->
-            <!--    <xsl:copy-of css:select="#portlets-footer > div.cell.FooterPortletManager4 > div > div > #mc_embed_signup" />-->
-            <!--</dd>-->
-            <!--<xsl:copy-of css:select="#portlets-footer > div.cell.FooterPortletManager4 > div > dl.portlet > dt" />-->
-            <!--<xsl:copy-of css:select="#portlets-footer > div.cell.FooterPortletManager4 > div > dl.portlet > dd" />-->
         </replace>
         <!--footer bottom-->
         <replace css:theme-children="p.sub-disclaimer">
