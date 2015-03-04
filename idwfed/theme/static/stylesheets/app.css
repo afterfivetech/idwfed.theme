@@ -7124,6 +7124,10 @@ nav.dropdown-menu {
     background-position: -440px 0px; }
 
 /*slider*/
+#demo1 li a img {
+  /*visibility: hidden;*/
+  color: white; }
+
 .slider-container {
   position: relative;
   margin: 0 auto;
