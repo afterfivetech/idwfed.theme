@@ -434,7 +434,7 @@
                     </dl>
                 </xsl:if>
                 <xsl:if test="dl">
-                    <dl class="f-top-portlet signup-newsletter">
+                    <dl class="f-top-portlet">
                         <dt>
                             <xsl:value-of css:select="dl > dt" />
                         </dt>
