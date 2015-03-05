@@ -53,25 +53,25 @@
                 <div></div>
                 <xsl:if test="/html[@lang='es']">
                     <span style="font-size:1.2rem">
-                        <xsl:value-of css:select="dl.portlet-static-federacion-internacional-de-trabajadores-del-hogar > dt" />
+                        <xsl:value-of css:select="dl.portlet-static-federacion-internacional-de-trabajadores-del-hogar > dd > p.site-title" />
                     </span>
                 </xsl:if>
                 <xsl:if test="/html[@lang='fr']">
                     <span style="font-size:1.2rem">
-                        <xsl:value-of css:select="dl.portlet-static-federation-internationale-des-travailleurs > dt" />
+                        <xsl:value-of css:select="dl.portlet-static-federation-internationale-des-travailleurs > dd > p.site-title" />
                     </span>
                 </xsl:if>
                 <span>
-                    <xsl:value-of css:select="dl.portlet-static-international-domestic-workers-federation > dt" />
+                    <xsl:value-of css:select="dl.portlet-static-international-domestic-workers-federation > dd > p.site-title" />
                 </span>
             </xsl:element>
         </replace>
         
         <!--tagline-->
         <replace css:theme-children=".tagline">
-            <xsl:value-of css:select="dl.portlet-static-international-domestic-workers-federation > dd > p" />
-            <xsl:value-of css:select="dl.portlet-static-federacion-internacional-de-trabajadores-del-hogar > dd> p" />
-            <xsl:value-of css:select="dl.portlet-static-federation-internationale-des-travailleurs > dd> p" />
+            <xsl:value-of css:select="dl.portlet-static-international-domestic-workers-federation > dd > p.site-slogan" />
+            <xsl:value-of css:select="dl.portlet-static-federacion-internacional-de-trabajadores-del-hogar > dd > p.site-slogan" />
+            <xsl:value-of css:select="dl.portlet-static-federation-internationale-des-travailleurs > dd > p.site-slogan" />
         </replace>
 
         <replace css:theme-children="#portal-globalnav"
