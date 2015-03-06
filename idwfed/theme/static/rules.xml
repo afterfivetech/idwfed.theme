@@ -236,7 +236,7 @@
                         <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > h2" />
                     </dt>
                     <dd>
-                        <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > p" />
+                        <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > p" />
                         <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > a.imag" />
                         <ul>
                             <xsl:for-each css:select="#content > div:nth-child(2) > div:nth-child(1) > div.tile > div.tile-content > .collection-item">
@@ -280,7 +280,7 @@
                         <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > h2" />
                     </dt>
                     <dd>
-                        <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > p" />
+                        <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > p" />
                         <xsl:value-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > a.imag" />
                         <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(3) > div.tile > div.tile-content > .collection-item" />
                     </dd>

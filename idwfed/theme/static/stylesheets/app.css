@@ -7295,8 +7295,6 @@ section.main.home-main {
   text-transform: uppercase; }
   #sidebar-left dt.portletHeader a, #sidebar-right dt.portletHeader a {
     color: white; }
-#sidebar-left ol, #sidebar-left ul, #sidebar-right ol, #sidebar-right ul {
-  list-style: none; }
 
 /*theme portlet*/
 dl.theme-portlet {
@@ -7363,7 +7361,7 @@ dl.theme-portlet {
 
 footer .footer-top {
   background: url(./images/clothingline.jpg) 0 0 repeat-x #b8c8c5;
-  padding-top: 2rem;
+  padding-top: 7rem;
   /*footer top portlet*/ }
   footer .footer-top dl.f-top-portlet {
     color: #00033f; }
@@ -7378,14 +7376,15 @@ footer .footer-top {
       footer .footer-top dl.f-top-portlet dd p {
         margin-bottom: 0; }
       footer .footer-top dl.f-top-portlet dd ul {
-        list-style: none;
-        padding: 0;
-        margin: 0; }
+        margin-bottom: 0; }
   footer .footer-top > div {
     background: url(./images/clip-apron.png) top right no-repeat transparent;
-    padding-bottom: 4rem; }
-    footer .footer-top > div div:first-child dl.f-top-portlet {
-      padding-top: 5rem; }
+    padding-bottom: 4rem;
+    /*div:first-child{*/
+    /*	dl.f-top-portlet{*/
+    /*		padding-top: 5rem;*/
+    /*	}*/
+    /*}*/ }
   footer .footer-top .signup-newsletter dt {
     text-align: center; }
     footer .footer-top .signup-newsletter dt a {
@@ -7457,9 +7456,7 @@ footer .footer-bottom {
     margin-bottom: 0;
     height: 350px; }
   dl.theme-portlet {
-    height: 350px; }
-  dl.f-top-portlet {
-    padding-top: 5rem; } }
+    height: 350px; } }
 
 /*DISQUS*/
 #disqus_thread_wrapper {
@@ -7887,12 +7884,7 @@ dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
   border: none; }
 
 dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
-  padding: 1em;
-  /*custom*/ }
-  dl.portlet dd.portletItem ul, dl.portlet dd.portletFooter ul, dl.portletError dd ul {
-    list-style: none;
-    margin: 0;
-    padding: 0; }
+  padding: 1em; }
 
 .blockedPortlet .portletHeader {
   border: 1px dashed #dddddd;
@@ -7919,6 +7911,10 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
 
 /* @end */
 /* @group Navigation portlet */
+dl.portlet ul.navTree {
+  list-style: none;
+  margin-left: 0; }
+
 dl.portlet ul.navTree li a {
   border: none;
   display: block;
