@@ -7484,6 +7484,13 @@ h2.portlet-title {
   border-radius: 0.5rem 0.5rem 0 0;
   text-transform: uppercase; }
 
+@media only screen and (max-width: 40em) {
+  /*cell - counter style from column.css*/
+  div.cell {
+    width: 100% !important;
+    margin-left: 0 !important;
+    left: 0 !important; } }
+
 /* @group Forms */
 fieldset, .editionComment {
   line-height: 1.5em;
