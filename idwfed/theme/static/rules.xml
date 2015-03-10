@@ -445,7 +445,7 @@
         </replace>
         <!--footer bottom-->
         <replace css:theme-children="p.sub-disclaimer">
-            All Right Reserved <a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/disclaimer">Disclaimer</a>
+            Some Rights Reserved <a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/disclaimer">Disclaimer</a>
         </replace>
         
         <drop theme="/html/body/script" />
