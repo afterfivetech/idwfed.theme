@@ -1,0 +1,3 @@
+<div id='slogan_portlet'>
+    <tal:block tal:content="view/contents"></tal:block>
+</div>

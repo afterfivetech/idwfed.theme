@@ -1,0 +1,6 @@
+<div id='orgname_portlet'>
+    <tal:block tal:content="python: view.contents().org_name"></tal:block>
+</div>
+<div id='copyright_portlet'>
+    <tal:block tal:content="python: view.contents().copyright_text"></tal:block>
+</div>

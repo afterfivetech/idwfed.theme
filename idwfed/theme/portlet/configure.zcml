@@ -1,0 +1,28 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:plone="http://namespaces.plone.org/plone"
+           xmlns:i18n="http://namespaces.zope.org/i18n"
+           i18n_domain="bexphil.theme">
+
+        <include package="plone.app.portlets" file="permissions.zcml"/>
+        <!-- -*- extra stuff goes here -*- -->
+
+
+        <plone:portlet
+                name="slogan.portlet"
+                interface=".slogan_portlet.IContentNavigation"
+                assignment=".slogan_portlet.Assignment"
+                renderer=".slogan_portlet.Renderer"
+                addview=".slogan_portlet.AddForm"
+                editview=".slogan_portlet.EditForm"
+                />
+        <plone:portlet
+                name="orgname_copyright.portlet"
+                interface=".orgname_copyright_portlet.IContentNavigation"
+                assignment=".orgname_copyright_portlet.Assignment"
+                renderer=".orgname_copyright_portlet.Renderer"
+                addview=".orgname_copyright_portlet.AddForm"
+                editview=".orgname_copyright_portlet.EditForm"
+                />
+
+
+</configure>
