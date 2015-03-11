@@ -26,6 +26,9 @@
         <drop css:content="dl.portlet-static-international-domestic-workers-federation" />
         <drop css:content="dl.portlet-static-federacion-internacional-de-trabajadores-del-hogar" />
         <drop css:content="dl.portlet-static-federation-internationale-des-travailleurs" />
+        <drop css:content="#orgname_portlet" />
+        <drop css:content="#copyright_portlet" />
+        <drop css:content="#slogan_portlet" />
         
         <!--google translate-->
         <after css:theme-children="head">
@@ -51,7 +54,10 @@
                     <xsl:value-of select="//*[@id='portal-logo']/@href" />
                 </xsl:attribute>
                 <div></div>
-                <xsl:if test="/html[@lang='es']">
+                <span style="font-size:1.2rem">
+                    <xsl:value-of css:select="#orgname_portlet" />
+                </span>
+                <!--<xsl:if test="/html[@lang='es']">
                     <span style="font-size:1.2rem">
                         <xsl:value-of css:select="dl.portlet-static-federacion-internacional-de-trabajadores-del-hogar > dd > p.site-title" />
                     </span>
@@ -63,7 +69,7 @@
                 </xsl:if>
                 <span>
                     <xsl:value-of css:select="dl.portlet-static-international-domestic-workers-federation > dd > p.site-title" />
-                </span>
+                </span>-->
             </xsl:element>
         </replace>
         
@@ -72,6 +78,7 @@
             <xsl:value-of css:select="dl.portlet-static-international-domestic-workers-federation > dd > p.site-slogan" />
             <xsl:value-of css:select="dl.portlet-static-federacion-internacional-de-trabajadores-del-hogar > dd > p.site-slogan" />
             <xsl:value-of css:select="dl.portlet-static-federation-internationale-des-travailleurs > dd > p.site-slogan" />
+            <xsl:value-of css:select="#slogan_portlet" />
         </replace>
 
         <replace css:theme-children="#portal-globalnav"
