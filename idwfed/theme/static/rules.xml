@@ -28,6 +28,7 @@
         <drop css:content="dl.portlet-static-federation-internationale-des-travailleurs" />
         <drop css:content="#orgname_portlet" />
         <drop css:content="#copyright_portlet" />
+        <drop css:content=".policy-item_portlet" />
         <drop css:content="#slogan_portlet" />
         
         <!--google translate-->
@@ -457,6 +458,7 @@
         </replace>
         <replace css:theme-children="p.sub-disclaimer">
             <xsl:value-of css:select="#rights-reserved_portlet" />
+            <xsl:copy-of css:select=".policy-item_portlet a" />
             <!--Some Rights Reserved <a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/disclaimer">Disclaimer</a>-->
         </replace>
         
