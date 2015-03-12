@@ -19,8 +19,14 @@ class IContentNavigation(IPortletDataProvider):
         )
     
     copyright_text = schema.TextLine(
-            title = u"Copyright Text"    
+            title = u"Copyright Text",
+            required = False
         )
+    
+    rights_reserved = schema.TextLine(
+        title = u"Rights Reserved Custom Text",
+        required = False
+    )
     
     
     
@@ -28,9 +34,10 @@ class IContentNavigation(IPortletDataProvider):
 class Assignment(base.Assignment):
     implements(IContentNavigation)
     
-    def __init__(self,org_name=None, copyright_text=None):
+    def __init__(self,org_name=None, copyright_text=None, rights_reserved=None):
         self.org_name = org_name
         self.copyright_text = copyright_text
+        self.rights_reserved = rights_reserved
         
     title = u"Organization Name and Copyright Portlet"
     
