@@ -23,6 +23,15 @@
                 addview=".orgname_copyright_portlet.AddForm"
                 editview=".orgname_copyright_portlet.EditForm"
                 />
+        
+        <plone:portlet
+                name="policy_items.portlet"
+                interface=".policy_items_portlet.IContentNavigation"
+                assignment=".policy_items_portlet.Assignment"
+                renderer=".policy_items_portlet.Renderer"
+                addview=".policy_items_portlet.AddForm"
+                editview=".policy_items_portlet.EditForm"
+                />
 
 
 </configure>

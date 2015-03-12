@@ -13,5 +13,11 @@
             title="Organization Name and Copyright Portlet"
             description=""
     />
+    
+    <portlet
+            addview="policy_items.portlet"
+            title="Policy Items Portlet"
+            description=""
+    />
 
 </portlets>
