@@ -451,8 +451,13 @@
             </xsl:for-each>
         </replace>
         <!--footer bottom-->
+        <replace css:theme-children="p.disclaimer">
+            <span class="cc" style="font-family: 'cc icons';">c</span>
+            <xsl:value-of css:select="#copyright_portlet" />
+        </replace>
         <replace css:theme-children="p.sub-disclaimer">
-            Some Rights Reserved <a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/disclaimer">Disclaimer</a>
+            <xsl:value-of css:select="#rights-reserved_portlet" />
+            <!--Some Rights Reserved <a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/disclaimer">Disclaimer</a>-->
         </replace>
         
         <drop theme="/html/body/script" />
