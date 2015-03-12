@@ -1,4 +1,4 @@
-<div id='policy-item_portlet'>
+<div class='policy-item_portlet'>
     <tal:block tal:condition="python: view.contents().link">
         <a tal:attributes="href python: view.contents().link" tal:content="python: view.contents().item_title"></a>
     </tal:block>
