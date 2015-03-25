@@ -30,6 +30,7 @@
         <drop css:content="#copyright_portlet" />
         <drop css:content=".policy-item_portlet" />
         <drop css:content="#slogan_portlet" />
+        <drop css:content="#rights-reserved_portlet" />
         
         <!--google translate-->
         <after css:theme-children="head">
