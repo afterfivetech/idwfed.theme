@@ -9566,6 +9566,10 @@ dl.newTagsSection dd textarea {
   padding: 10px;
   color: white !important; }
 
+.faceted-widget.faceted-checkboxes-widget .widget-fieldset ul li input {
+  margin-bottom: 0;
+  margin-top: 5px; }
+
 /*Search Page*/
 form.searchPage #search-field input {
   display: inline; }
