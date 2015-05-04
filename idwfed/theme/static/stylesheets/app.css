@@ -7361,7 +7361,7 @@ dl.theme-portlet {
 
 footer .footer-top {
   background: url(./images/clothingline.jpg) 0 0 repeat-x #b8c8c5;
-  padding-top: 7rem;
+  padding-top: 2rem;
   /*footer top portlet*/ }
   footer .footer-top dl.f-top-portlet {
     color: #00033f; }
@@ -7380,11 +7380,7 @@ footer .footer-top {
   footer .footer-top > div {
     background: url(./images/clip-apron.png) top right no-repeat transparent;
     padding-bottom: 4rem;
-    /*div:first-child{*/
-    /*	dl.f-top-portlet{*/
-    /*		padding-top: 5rem;*/
-    /*	}*/
-    /*}*/ }
+    padding-top: 5rem; }
   footer .footer-top .signup-newsletter dt {
     text-align: center; }
     footer .footer-top .signup-newsletter dt a {
