@@ -7368,7 +7368,8 @@ footer .footer-top {
     footer .footer-top dl.f-top-portlet dt {
       text-transform: uppercase;
       color: #006843;
-      font-family: Choplin, Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-weight: bold; }
     footer .footer-top dl.f-top-portlet dd {
       margin: 0; }
       footer .footer-top dl.f-top-portlet dd i {
@@ -7411,13 +7412,17 @@ footer .footer-bottom {
   footer .footer-bottom .disclaimer {
     color: white;
     font-size: 23px;
-    font-family: Choplin, Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: bold; }
+    footer .footer-bottom .disclaimer span.cc {
+      font-weight: normal; }
   footer .footer-bottom .sub-disclaimer {
     color: white;
-    font-family: Choplin, Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
     footer .footer-bottom .sub-disclaimer a {
       color: white;
-      margin-left: 5px; }
+      margin-left: 5px;
+      font-weight: bold; }
     footer .footer-bottom .sub-disclaimer a:before {
       content: "*";
       display: inline-block;
