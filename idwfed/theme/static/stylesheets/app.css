@@ -7485,6 +7485,11 @@ h2.portlet-title {
   border-radius: 0.5rem 0.5rem 0 0;
   text-transform: uppercase; }
 
+/*custom message*/
+.custom-message .button {
+  color: white !important;
+  background-color: #edaf1c; }
+
 @media only screen and (max-width: 40em) {
   /*cell - counter style from column.css*/
   div.cell {
