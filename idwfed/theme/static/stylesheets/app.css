@@ -7486,7 +7486,7 @@ h2.portlet-title {
   text-transform: uppercase; }
 
 /*custom message*/
-.custom-message .button {
+.custom-message .button.rea-button {
   color: white !important;
   background-color: #edaf1c; }
 
