@@ -27,16 +27,17 @@
         </div>
 
         <div id="content-core">
-            <p tal:condition="ve"
-               tal:define="expire_length context/portal_password_reset/getExpirationTimeout;
-                           toLocalizedTime nocall:context/@@plone/toLocalizedTime;
-                           expire_date python:toLocalizedTime(DateTime() + expire_length / 24.0, long_format=1)"
-               i18n:translate="description_password_reset_or_registered">
-	ACTIVATE your account by clicking the activation link we are emailing to you.<br/>
-	NOTE: The activation link will expire on <span tal:replace="expire_date" i18n:name="time"/>. <br/>
-	You can resend it here.
-            </p>
-	<a href="">Button</a>
+	    
+            <div class="custom-message" tal:condition="ve"
+		  tal:define="expire_length context/portal_password_reset/getExpirationTimeout;
+			      toLocalizedTime nocall:context/@@plone/toLocalizedTime;
+			      expire_date python:toLocalizedTime(DateTime() + expire_length / 24.0, long_format=1)"
+		  i18n:translate="description_password_reset_or_registered">
+		  <p>ACTIVATE your account by clicking the activation link we are emailing to you.</p>
+		  <div class="alert-box secondary">NOTE: The activation link will expire on <span tal:replace="expire_date" i18n:name="time"/>.</div>
+		  <p>You can resend it here.</p>
+		  <a href="#" class="button rea-button">Resend Activation Email</a>
+            </div>
 
             <tal:block condition="python:not(ve)">
                 <p i18n:translate="description_you_can_log_on_now">
