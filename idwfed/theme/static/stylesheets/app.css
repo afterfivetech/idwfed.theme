@@ -7486,7 +7486,7 @@ h2.portlet-title {
   text-transform: uppercase; }
 
 /*custom message*/
-.custom-message .button.rea-button {
+.custom-message .button {
   color: white !important;
   background-color: #edaf1c; }
 
@@ -9714,3 +9714,7 @@ form[action="enl_subscribers_view"] input[type="submit"] {
   background: none white;
   padding: 10px;
   border-radius: 5px; }
+
+/*link*/
+#login-new-user a, #login-forgotten-password a {
+  color: #fc7045; }
