@@ -9714,3 +9714,7 @@ form[action="enl_subscribers_view"] input[type="submit"] {
   background: none white;
   padding: 10px;
   border-radius: 5px; }
+
+/*link*/
+#login-new-user a, #login-forgotten-password a {
+  color: #fc7045; }
