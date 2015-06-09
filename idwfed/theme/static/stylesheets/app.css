@@ -9343,6 +9343,9 @@ table.listing tbody {
 .formQuestion, #content input[type="checkbox"] + label, input[type="radio"] + label {
   display: inline; }
 
+#formfield-form-widgets-pledges span.option {
+  margin-bottom: 10px; }
+
 label .label {
   background: none;
   font-size: inherit;
