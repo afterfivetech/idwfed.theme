@@ -9347,7 +9347,8 @@ label .label {
   background: none;
   font-size: inherit;
   padding: 0;
-  color: #4d4d4d; }
+  color: #4d4d4d;
+  white-space: normal; }
 
 /*start fix for foundation button*/
 #content ul.button-group {
