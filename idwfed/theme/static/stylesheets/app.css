@@ -7497,6 +7497,10 @@ h2.portlet-title {
     margin-left: 0 !important;
     left: 0 !important; } }
 
+/*space for portlet list item*/
+dl.portlet dd > ul > li {
+  margin-bottom: 10px; }
+
 /* @group Content Area */
 /* Editor styles */
 #content .discreet, #sidebar .discreet, .portletStaticText .discreet {
@@ -9343,11 +9347,15 @@ table.listing tbody {
 .formQuestion, #content input[type="checkbox"] + label, input[type="radio"] + label {
   display: inline; }
 
+#formfield-form-widgets-pledges span.option {
+  margin-bottom: 10px; }
+
 label .label {
   background: none;
   font-size: inherit;
   padding: 0;
-  color: #4d4d4d; }
+  color: #4d4d4d;
+  white-space: normal; }
 
 /*start fix for foundation button*/
 #content ul.button-group {
