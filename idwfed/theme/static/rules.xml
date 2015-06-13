@@ -154,6 +154,10 @@
         <!--my fair home-->
         <rules css:if-content=".template-view.portaltype-ilo-pledge-pledgecampaign">
             <drop css:theme=".focus-container.inner" />
+            <drop css:content=".side_viewlet" />
+            <before css:theme-children="#sidebar-left">
+                <xsl:copy-of css:select=".side_viewlet" />
+            </before>
             <replace css:theme-children=".main-header">
                 <div class="large-3 columns">
                     <img id="my_fair_home_logo" alt="My Fair Home" src="/++theme++idwfed.theme/pd_img/pd_logo.png" />
