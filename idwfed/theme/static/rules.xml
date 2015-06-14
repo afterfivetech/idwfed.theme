@@ -155,6 +155,7 @@
         <rules css:if-content=".template-view.portaltype-ilo-pledge-pledgecampaign,
         .template-pledges_view.portaltype-ilo-pledge-pledgecampaign,
         .template-view.portaltype-ilo-pledge-pledge,
+        .template-pledges_view.portaltype-ilo-pledge-pledgecampaign,
         .template-fg_base_view_p3">
             <drop css:theme=".focus-container.inner" />
             <drop css:content=".side_viewlet" />
