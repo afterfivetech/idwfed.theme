@@ -1333,6 +1333,30 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'the hand';
+  src: url('../fonts/TheHandBold.otf');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'the hand bold';
+  src: url('../fonts/TheHandExtrablack.otf');
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'newslab';
+  src: url('../fonts/Newslab.otf');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'newslab';
+  src: url('../fonts/NewslabBold.otf');
+  font-weight: bold;
+  font-style: normal; }
+
 meta.foundation-version {
   font-family: "/5.4.2/"; }
 
@@ -7502,9 +7526,15 @@ dl.portlet dd > ul > li {
   margin-bottom: 10px; }
 
 /*my fair home*/
+.template-view.portaltype-ilo-pledge-pledgecampaign, .template-pledges_view.portaltype-ilo-pledge-pledgecampaign, .template-view.portaltype-ilo-pledge-pledge, .template-pledges_view.portaltype-ilo-pledge-pledgecampaign, .template-ilo-pledge-pledge.portaltype-ilo-pledge-pledgecampaign, .template-edit.portaltype-ilo-pledge-pledgecampaign, .template-fg_base_view_p3 {
+  font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  .template-view.portaltype-ilo-pledge-pledgecampaign #sidebar-left dt.portletHeader, .template-view.portaltype-ilo-pledge-pledgecampaign #sidebar-right dt.portletHeader, .template-view.portaltype-ilo-pledge-pledgecampaign nav.primary-nav, .template-pledges_view.portaltype-ilo-pledge-pledgecampaign #sidebar-left dt.portletHeader, .template-pledges_view.portaltype-ilo-pledge-pledgecampaign #sidebar-right dt.portletHeader, .template-pledges_view.portaltype-ilo-pledge-pledgecampaign nav.primary-nav, .template-view.portaltype-ilo-pledge-pledge #sidebar-left dt.portletHeader, .template-view.portaltype-ilo-pledge-pledge #sidebar-right dt.portletHeader, .template-view.portaltype-ilo-pledge-pledge nav.primary-nav, .template-pledges_view.portaltype-ilo-pledge-pledgecampaign #sidebar-left dt.portletHeader, .template-pledges_view.portaltype-ilo-pledge-pledgecampaign #sidebar-right dt.portletHeader, .template-pledges_view.portaltype-ilo-pledge-pledgecampaign nav.primary-nav, .template-ilo-pledge-pledge.portaltype-ilo-pledge-pledgecampaign #sidebar-left dt.portletHeader, .template-ilo-pledge-pledge.portaltype-ilo-pledge-pledgecampaign #sidebar-right dt.portletHeader, .template-ilo-pledge-pledge.portaltype-ilo-pledge-pledgecampaign nav.primary-nav, .template-edit.portaltype-ilo-pledge-pledgecampaign #sidebar-left dt.portletHeader, .template-edit.portaltype-ilo-pledge-pledgecampaign #sidebar-right dt.portletHeader, .template-edit.portaltype-ilo-pledge-pledgecampaign nav.primary-nav, .template-fg_base_view_p3 #sidebar-left dt.portletHeader, .template-fg_base_view_p3 #sidebar-right dt.portletHeader, .template-fg_base_view_p3 nav.primary-nav {
+    font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
 #mfh-pledge-title {
   margin-top: 40px;
-  font-size: 36px; }
+  font-size: 36px;
+  font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
 ul.pledge-item {
   list-style-image: url('../pd_img/check-icon.png'); }
