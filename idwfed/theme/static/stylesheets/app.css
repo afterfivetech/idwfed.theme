@@ -7506,6 +7506,9 @@ dl.portlet dd > ul > li {
   margin-top: 40px;
   font-size: 55px; }
 
+ul.pledge-item {
+  list-style-image: url('../pd_img/check-icon.png'); }
+
 /* @group Content Area */
 /* Editor styles */
 #content .discreet, #sidebar .discreet, .portletStaticText .discreet {
