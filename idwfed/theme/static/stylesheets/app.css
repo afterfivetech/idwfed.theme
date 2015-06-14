@@ -7504,10 +7504,13 @@ dl.portlet dd > ul > li {
 /*my fair home*/
 #mfh-pledge-title {
   margin-top: 40px;
-  font-size: 55px; }
+  font-size: 36px; }
 
 ul.pledge-item {
   list-style-image: url('../pd_img/check-icon.png'); }
+
+dl.pledge-user-details dd {
+  margin-bottom: 0; }
 
 /* @group Content Area */
 /* Editor styles */
