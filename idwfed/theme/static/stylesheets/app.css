@@ -7550,7 +7550,7 @@ ul.pledge-item {
 dl.pledge-user-details dd {
   margin-bottom: 0; }
 
-.template-ilo-pledge-selfie ul.formTabs, .template-ilo-pledge-pledgedetail ul.formTabs, .template-ilo-socialsticker-sticker ul.formTabs {
+.template-ilo-pledge-selfie p.discreet, .template-ilo-pledge-selfie ul.formTabs, .template-ilo-pledge-pledgedetail p.discreet, .template-ilo-pledge-pledgedetail ul.formTabs, .template-ilo-socialsticker-sticker p.discreet, .template-ilo-socialsticker-sticker ul.formTabs {
   display: none !important; }
 
 /* @group Content Area */
