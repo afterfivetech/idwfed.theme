@@ -152,26 +152,27 @@
         <replace css:theme="#portal-languageselector" css:content="#portal-languageselector" />
         
         <!--my fair home-->
-        <rules css:if-content=".template-view.portaltype-ilo-pledge-pledgecampaign,
-        .template-pledges_view.portaltype-ilo-pledge-pledgecampaign,
-        .template-view.portaltype-ilo-pledge-pledge,
-        .template-pledges_view.portaltype-ilo-pledge-pledgecampaign,
-        .template-ilo-pledge-pledge.portaltype-ilo-pledge-pledgecampaign,
-        .template-edit.portaltype-ilo-pledge-pledgecampaign,
-        .template-fg_base_view_p3">
+        <rules css:if-content=".section-myfairhome">
             <drop css:theme=".focus-container.inner" />
             <drop css:content=".side_viewlet" />
             <before css:theme-children="#sidebar-left">
                 <xsl:copy-of css:select=".side_viewlet" />
             </before>
             <replace css:theme-children=".main-header">
-                <div class="large-3 columns">
+                <div class="row">
+                    <div class="large-12 column text-center">
+                        <img src="/++theme++idwfed.theme/pd_img/c189_banner.png" />  
+                    </div>
+                </div>
+                     
+                <!--<div class="large-3 columns">
                     <img id="my_fair_home_logo" alt="My Fair Home" src="/++theme++idwfed.theme/pd_img/pd_logo.png" />
                 </div>
                 
                 <div class="large-9 columns">
                     <h1 id="mfh-pledge-title">Ratify the principles of the Domestic Workers Convention in your home</h1>
                 </div>
+            -->
             </replace>
         </rules>
         
