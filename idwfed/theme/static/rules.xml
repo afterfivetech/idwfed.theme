@@ -152,7 +152,9 @@
         <replace css:theme="#portal-languageselector" css:content="#portal-languageselector" />
         
         <!--my fair home-->
-        <rules css:if-content=".section-myfairhome">
+        <rules css:if-content=".section-myfairhome,
+            .section-rumahkuyangadil, .section-e2be19e49e32e41e23e01e41e1fe23e4c
+            ">
             <drop css:theme=".focus-container.inner" />
             <drop css:content=".side_viewlet" />
             <before css:theme-children="#sidebar-left">
