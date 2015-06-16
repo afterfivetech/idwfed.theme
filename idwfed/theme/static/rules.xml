@@ -153,8 +153,7 @@
         
         <!--my fair home-->
         <rules css:if-content=".section-myfairhome,
-            .section-rumahkuyangadil, .section-e2be19e49e32e41e23e01e41e1fe23e4c
-            ">
+            .section-rumahkuyangadil, .section-e2be19e49e32e41e23e01e41e1fe23e4c">
             <drop css:theme=".focus-container.inner" />
             <drop css:content=".side_viewlet" />
             <before css:theme-children="#sidebar-left">
@@ -297,6 +296,10 @@
             <!--featured content-->
             <replace css:theme=".wrap-featured">
                 <div class="featured wrap-featured">
+                    <div>
+                        <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > *" />
+                    </div>
+                    <!--
                     <div class="featured-img">
                         <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > a.imag" />
                     </div>
@@ -306,6 +309,7 @@
                         </p>
                         <p><xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > p" /></p>
                     </div>
+                    -->
                 </div>
             </replace>
             <!--campaign-->
