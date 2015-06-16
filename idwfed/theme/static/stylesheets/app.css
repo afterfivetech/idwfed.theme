@@ -7553,6 +7553,10 @@ dl.pledge-user-details dd {
 .template-ilo-pledge-selfie p.discreet, .template-ilo-pledge-selfie ul.formTabs, .template-ilo-pledge-pledgedetail p.discreet, .template-ilo-pledge-pledgedetail ul.formTabs, .template-ilo-socialsticker-sticker p.discreet, .template-ilo-socialsticker-sticker ul.formTabs {
   display: none !important; }
 
+#form-widgets-selfie_image:after {
+  content: " ";
+  display: none; }
+
 /* @group Content Area */
 /* Editor styles */
 #content .discreet, #sidebar .discreet, .portletStaticText .discreet {
