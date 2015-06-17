@@ -7557,6 +7557,18 @@ dl.pledge-user-details dd {
   content: " ";
   display: none; }
 
+/*selfie profile*/
+.selfie-profile {
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 20px; }
+  .selfie-profile #selfie-picture img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; }
+  .selfie-profile #selfie-overview {
+    padding: 10px 0;
+    margin-right: 10px; }
+
 /* @group Content Area */
 /* Editor styles */
 #content .discreet, #sidebar .discreet, .portletStaticText .discreet {
