@@ -296,20 +296,22 @@
             <!--featured content-->
             <replace css:theme=".wrap-featured">
                 <div class="featured wrap-featured">
-                    <div>
-                        <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > *" />
-                    </div>
-                    <!--
-                    <div class="featured-img">
-                        <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > a.imag" />
-                    </div>
-                    <div class="featured-text">
-                        <p class="title">
-                            <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > h2 > a" />
-                        </p>
-                        <p><xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > p" /></p>
-                    </div>
-                    -->
+                    <xsl:if css:test="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > a.imag">
+                        <div class="featured-img">
+                            <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > a.imag" />
+                        </div>
+                        <div class="featured-text">
+                            <p class="title">
+                                <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > h2 > a" />
+                            </p>
+                            <p><xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > p" /></p>
+                        </div>
+                    </xsl:if>
+                    <xsl:if test="not(//a[@class='imag'])">
+                        <div class="featured-text">
+                            <xsl:copy-of css:select="#content > div:nth-child(2) > div:nth-child(2) > div.tile > div.tile-content > *" />
+                        </div>
+                    </xsl:if>
                 </div>
             </replace>
             <!--campaign-->
