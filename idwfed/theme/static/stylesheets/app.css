@@ -6933,7 +6933,8 @@ body {
   .top-colorstrip #portal-personaltools {
     font-size: 0.7rem;
     float: right;
-    margin: 0; }
+    margin: 0;
+    z-index: 99; }
     .top-colorstrip #portal-personaltools dt {
       margin-bottom: 0; }
       .top-colorstrip #portal-personaltools dt a {
