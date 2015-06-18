@@ -6933,7 +6933,8 @@ body {
   .top-colorstrip #portal-personaltools {
     font-size: 0.7rem;
     float: right;
-    margin: 0; }
+    margin: 0;
+    z-index: 99; }
     .top-colorstrip #portal-personaltools dt {
       margin-bottom: 0; }
       .top-colorstrip #portal-personaltools dt a {
@@ -9785,6 +9786,9 @@ form[action="enl_subscribers_view"] input[type="submit"] {
   color: #00033f; }
 #portal-column-content a {
   color: #fc7045; }
+
+#content-views a {
+  color: White; }
 
 .theme-portlet dd:last-child a {
   color: #fc7045; }
