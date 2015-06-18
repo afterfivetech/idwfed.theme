@@ -9787,6 +9787,9 @@ form[action="enl_subscribers_view"] input[type="submit"] {
 #portal-column-content a {
   color: #fc7045; }
 
+#content-views a {
+  color: White; }
+
 .theme-portlet dd:last-child a {
   color: #fc7045; }
 
