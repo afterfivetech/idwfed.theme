@@ -7558,6 +7558,9 @@ dl.pledge-user-details dd {
   display: none; }
 
 /*selfie profile*/
+.th {
+  margin-bottom: 5px; }
+
 .selfie-profile {
   background-color: white;
   border-radius: 20px;
