@@ -7763,16 +7763,16 @@ dl.warning {
 dl.warning > dt, .warning > .admonition-title {
   background-color: #dd8800; }
 
-dl.error {
+dl.error, dl.sorry {
   border-color: red; }
 
-dl.error > dt, .error > .admonition-title {
+dl.error > dt, dl.sorry > dt, .error > .admonition-title {
   background-color: #dd0000; }
 
 .warning > dd, .warning > .last {
   background-color: #ffdd77; }
 
-.error > dd, .error > .last {
+.error > dd, .sorry > dd, .error > .last {
   background-color: #ffddcc; }
 
 /* Additional specificity for when status is shown inside #content */
