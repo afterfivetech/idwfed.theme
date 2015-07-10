@@ -7573,6 +7573,10 @@ dl.pledge-user-details dd {
     padding: 10px 0;
     margin-right: 10px; }
 
+/*wrap content container*/
+#portal-column-content {
+  word-wrap: break-word; }
+
 /* @group Content Area */
 /* Editor styles */
 #content .discreet, #sidebar .discreet, .portletStaticText .discreet {
