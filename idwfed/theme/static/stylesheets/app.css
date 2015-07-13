@@ -7577,6 +7577,10 @@ dl.pledge-user-details dd {
 #portal-column-content {
   word-wrap: break-word; }
 
+/*override facebook iframe width */
+#u_0_0 > div {
+  width: 100% !important; }
+
 /* @group Content Area */
 /* Editor styles */
 #content .discreet, #sidebar .discreet, .portletStaticText .discreet {
