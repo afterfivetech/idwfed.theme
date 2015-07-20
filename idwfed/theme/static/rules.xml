@@ -152,7 +152,7 @@
         <replace css:theme="#portal-languageselector" css:content="#portal-languageselector" />
         
         <!--my fair home-->
-        <rules css:if-content=".site-idwfed, .site-myfairhome">
+        <rules css:if-content=".site-myfairhome">
             <drop css:theme=".focus-container.inner" />
             <drop css:content=".side_viewlet" />
             <before css:theme-children="#sidebar-left">
