@@ -163,37 +163,37 @@
                     <div class="large-12 column text-center">
                         <xsl:choose>
                             <xsl:when css:test=".section-meinfaireszuhause">
-                                <img src="/media/c189-banner/c189_german_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_german_banner.png/@@images/image.png" /> 
                             </xsl:when>
                             <xsl:when css:test=".section-179b17c6179317c5178a17d2178b17b6">
-                                <img src="/media/c189-banner/c189_khmer_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_khmer_banner.png/@@images/image.png" /> 
                             </xsl:when>
                             <xsl:when css:test=".section-mittrattvisahem">
-                                <img src="/media/c189-banner/c189_swedish_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_swedish_banner.png/@@images/image.png" /> 
                             </xsl:when>
                             <xsl:when css:test=".section-rumahkuyangadil">
-                                <img src="/media/c189-banner/c189_indonesian_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_indonesian_banner.png/@@images/image.png" /> 
                             </xsl:when>
                             <xsl:when css:test=".section-e2be19e49e32e41e23e01e41e1fe23e4c">
-                                <img src="/media/c189-banner/c189_thai_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_thai_banner.png/@@images/image.png" /> 
                             </xsl:when>
                             <xsl:when css:test=".section-62117684516c5e734e4b5bb6">
-                                <img src="/media/c189-banner/c189_simplified_chinese_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_simplified_chinese_banner.png/@@images/image.png" /> 
                             </xsl:when>
                             <xsl:when css:test=".section-62117684516c5e734e4b5bb6-1">
-                                <img src="/media/c189-banner/c189_traditional_chinese_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_traditional_chinese_banner.png/@@images/image.png" /> 
                             </xsl:when>
                             <xsl:when css:test=".section-mijustohogar">
-                                <img src="/media/c189-banner/c189_spanish_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_spanish_banner.png/@@images/image.png" /> 
                             </xsl:when>
                             <xsl:when css:test=".section-ec0eaeeb7eade99e97eb5ec8ea1eb5e84ea7eb2ea1ec0e9beb">
-                                <img src="/media/c189-banner/c189_lao_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_lao_banner.png/@@images/image.png" /> 
                             </xsl:when>
                             <xsl:when css:test=".section-ngoinhabinhdangcuatoi">
-                                <img src="/media/c189-banner/c189_vietnamese_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_vietnamese_banner.png/@@images/image.png" /> 
                             </xsl:when>
                             <xsl:when css:test=".section-lamiacasagiusta">
-                                <img src="/media/c189-banner/c189_italian_banner.png/image" /> 
+                                <img src="myfairhome/media/c189-banner/c189_italian_banner.png/@@images/image.png" /> 
                             </xsl:when>
 
                             <xsl:otherwise>
