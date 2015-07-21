@@ -82,7 +82,11 @@
             <xsl:value-of css:select="dl.portlet-static-federation-internationale-des-travailleurs > dd > p.site-slogan" />
             <xsl:value-of css:select="#slogan_portlet" />
         </replace>
-
+        
+        <!--main menu-->
+        <before css:theme-children="#portal-globalnav" css:if-content=".site-myfairhome">
+            <li><a href="//idwfed.org/">IDWFED</a></li>
+        </before>
         <replace css:theme-children="#portal-globalnav"
             css:content-children="#portal-globalnav"/>
         <!--mobile menu-->
