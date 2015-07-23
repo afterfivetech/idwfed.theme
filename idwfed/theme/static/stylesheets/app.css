@@ -1357,6 +1357,18 @@
   font-weight: bold;
   font-style: normal; }
 
+@font-face {
+  font-family: 'winresea';
+  src: url('../fonts/winresea.ttf');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'winrb';
+  src: url('../fonts/winrb.ftf');
+  font-weight: normal;
+  font-style: normal; }
+
 meta.foundation-version {
   font-family: "/5.4.2/"; }
 
@@ -7528,9 +7540,9 @@ dl.portlet dd > ul > li {
 
 /*my fair home*/
 .site-myfairhome, .section-myfairhome, .section-rumahkuyangadil, .section-e2be19e49e32e41e23e01e41e1fe23e4c {
-  font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .site-myfairhome #sidebar-left dt.portletHeader, .site-myfairhome #sidebar-right dt.portletHeader, .site-myfairhome nav.primary-nav, .section-myfairhome #sidebar-left dt.portletHeader, .section-myfairhome #sidebar-right dt.portletHeader, .section-myfairhome nav.primary-nav, .section-rumahkuyangadil #sidebar-left dt.portletHeader, .section-rumahkuyangadil #sidebar-right dt.portletHeader, .section-rumahkuyangadil nav.primary-nav, .section-e2be19e49e32e41e23e01e41e1fe23e4c #sidebar-left dt.portletHeader, .section-e2be19e49e32e41e23e01e41e1fe23e4c #sidebar-right dt.portletHeader, .section-e2be19e49e32e41e23e01e41e1fe23e4c nav.primary-nav {
-    font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .site-myfairhome #sidebar-left dt.portletHeader, .site-myfairhome #sidebar-right dt.portletHeader, .section-myfairhome #sidebar-left dt.portletHeader, .section-myfairhome #sidebar-right dt.portletHeader, .section-rumahkuyangadil #sidebar-left dt.portletHeader, .section-rumahkuyangadil #sidebar-right dt.portletHeader, .section-e2be19e49e32e41e23e01e41e1fe23e4c #sidebar-left dt.portletHeader, .section-e2be19e49e32e41e23e01e41e1fe23e4c #sidebar-right dt.portletHeader {
     text-transform: none !important; }
   .site-myfairhome input[type="button"], .site-myfairhome input[type="reset"], .site-myfairhome input[type="submit"], .site-myfairhome button, .site-myfairhome .button, .section-myfairhome input[type="button"], .section-myfairhome input[type="reset"], .section-myfairhome input[type="submit"], .section-myfairhome button, .section-myfairhome .button, .section-rumahkuyangadil input[type="button"], .section-rumahkuyangadil input[type="reset"], .section-rumahkuyangadil input[type="submit"], .section-rumahkuyangadil button, .section-rumahkuyangadil .button, .section-e2be19e49e32e41e23e01e41e1fe23e4c input[type="button"], .section-e2be19e49e32e41e23e01e41e1fe23e4c input[type="reset"], .section-e2be19e49e32e41e23e01e41e1fe23e4c input[type="submit"], .section-e2be19e49e32e41e23e01e41e1fe23e4c button, .section-e2be19e49e32e41e23e01e41e1fe23e4c .button {
@@ -7543,7 +7555,7 @@ dl.portlet dd > ul > li {
 #mfh-pledge-title {
   margin-top: 40px;
   font-size: 36px;
-  font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 ul.pledge-item {
   list-style-image: url('../pd_img/check-icon.png'); }
