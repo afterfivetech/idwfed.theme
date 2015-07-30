@@ -8972,7 +8972,8 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 .ploneCalendar {
   border-spacing: 0;
-  width: 100%; }
+  width: 100%;
+  border: none; }
 
 .ploneCalendar td {
   background-color: transparent;
@@ -8980,17 +8981,20 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   text-align: center;
   padding: 2px; }
 
+.ploneCalendar td a {
+  color: #3e525b !important; }
+
 .ploneCalendar .weekdays th {
   background-color: #eeeeee;
   text-align: center;
   padding: 2px; }
 
 .ploneCalendar .event {
-  background-color: #eeeeee; }
+  background-color: #ffc7b6; }
 
 .ploneCalendar .todayevent {
   background-color: #eeeeee;
-  border: 2px solid #205c90; }
+  border: 2px solid #fc7045; }
 
 .ploneCalendar .todaynoevent {
   border: 2px solid #205c90; }
