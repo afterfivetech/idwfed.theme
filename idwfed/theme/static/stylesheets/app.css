@@ -7552,6 +7552,11 @@ dl.portlet dd > ul > li {
   .site-myfairhome .nav-container button, .section-myfairhome .nav-container button, .section-rumahkuyangadil .nav-container button, .section-e2be19e49e32e41e23e01e41e1fe23e4c .nav-container button {
     background-color: white; }
 
+.section-myanmar {
+  font-family: winresea, newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .section-myanmar nav.primary-nav {
+    font-family: winresea, newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 #mfh-pledge-title {
   margin-top: 40px;
   font-size: 36px;
