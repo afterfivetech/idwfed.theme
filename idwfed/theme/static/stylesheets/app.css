@@ -7554,7 +7554,7 @@ dl.portlet dd > ul > li {
 
 .section-myanmar {
   font-family: winresea, newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .section-myanmar li#portaltab-myanmar {
+  .section-myanmar li#portaltab-myanmar, .section-myanmar h1, .section-myanmar h2, .section-myanmar h3, .section-myanmar h4, .section-myanmar h5, .section-myanmar h6 {
     font-family: winresea, newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 #mfh-pledge-title {
