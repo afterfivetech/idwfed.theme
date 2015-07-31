@@ -8994,12 +8994,12 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   text-align: center;
   padding: 2px; }
 
-.ploneCalendar .event {
+.ploneCalendar .event.cal_has_events {
   background-color: #ffc7b6; }
 
-.ploneCalendar .todayevent {
+.ploneCalendar .today.cal_has_events {
   background-color: #eeeeee;
-  border: 2px solid #fc7045; }
+  border: 2px solid #fc7045 !important; }
 
 .ploneCalendar .todaynoevent {
   border: 2px solid #205c90; }
