@@ -7552,9 +7552,9 @@ dl.portlet dd > ul > li {
   .site-myfairhome .nav-container button, .section-myfairhome .nav-container button, .section-rumahkuyangadil .nav-container button, .section-e2be19e49e32e41e23e01e41e1fe23e4c .nav-container button {
     background-color: white; }
 
-.section-myanmar {
+.section-myanmar #content, li#portaltab-myanmar {
   font-family: winresea, newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .section-myanmar li#portaltab-myanmar, .section-myanmar h1, .section-myanmar h2, .section-myanmar h3, .section-myanmar h4, .section-myanmar h5, .section-myanmar h6 {
+  .section-myanmar #content h1, .section-myanmar #content h2, .section-myanmar #content h3, .section-myanmar #content h4, .section-myanmar #content h5, .section-myanmar #content h6, li#portaltab-myanmar h1, li#portaltab-myanmar h2, li#portaltab-myanmar h3, li#portaltab-myanmar h4, li#portaltab-myanmar h5, li#portaltab-myanmar h6 {
     font-family: winresea, newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 #mfh-pledge-title {
