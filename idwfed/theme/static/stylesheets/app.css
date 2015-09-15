@@ -7598,6 +7598,13 @@ dl.pledge-user-details dd {
 #u_0_0 > div {
   width: 100% !important; }
 
+/*larger text*/
+.larger-text {
+  font-size: 180%;
+  display: inline-block;
+  margin: -8% 0;
+  vertical-align: middle; }
+
 /* @group Content Area */
 /* Editor styles */
 #content .discreet, #sidebar .discreet, .portletStaticText .discreet {
