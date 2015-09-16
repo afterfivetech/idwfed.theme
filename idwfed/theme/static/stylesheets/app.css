@@ -7602,7 +7602,7 @@ dl.pledge-user-details dd {
 
 /*larger text*/
 .large-text {
-  font-size: 180%;
+  font-size: 130%;
   display: inline-block;
   margin: -8% 0;
   vertical-align: middle; }
