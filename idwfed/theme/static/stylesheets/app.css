@@ -2,6 +2,7 @@
  *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
+@import url(//fonts.googleapis.com/earlyaccess/myanmarsanspro.css);
 @import url(//fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url(//fonts.googleapis.com/css?family=Merriweather);
 /* FONT PATH
@@ -1357,18 +1358,18 @@
   font-weight: bold;
   font-style: normal; }
 
+/*@font-face {
+    font-family: 'winresea';
+    src: url('../fonts/winresea.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
-  font-family: 'winresea';
-  src: url('../fonts/winresea.ttf');
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'winrb';
-  src: url('../fonts/winrb.ftf');
-  font-weight: normal;
-  font-style: normal; }
-
+    font-family: 'winrb';
+    src: url('../fonts/winrb.ftf');
+    font-weight: normal;
+    font-style: normal;
+}*/
 meta.foundation-version {
   font-family: "/5.4.2/"; }
 
@@ -1411,7 +1412,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 150%;
@@ -2235,7 +2236,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
       font-size: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -2627,7 +2628,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4217,7 +4218,7 @@ label.error {
 
 .label {
   font-weight: normal;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -4592,7 +4593,7 @@ ul.pagination {
     color: #eeeeee;
     font-weight: normal;
     font-size: 1rem;
-    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
   .pricing-table .price {
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
@@ -4600,7 +4601,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
   .pricing-table .description {
     background-color: white;
     padding: 0.9375rem;
@@ -4871,7 +4872,7 @@ dialog {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem;
@@ -4887,7 +4888,7 @@ dialog {
     .side-nav li.active > a:first-child:not(.button) {
       color: #000ac5;
       font-weight: normal;
-      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -4997,7 +4998,7 @@ dialog {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -5544,7 +5545,7 @@ blockquote, blockquote p {
       background-color: #efefef;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
         background-color: #e1e1e1; }
@@ -5842,7 +5843,7 @@ meta.foundation-mq-topbar {
       color: white;
       padding: 12px 0 12px 0;
       padding-left: 15px;
-      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -6891,7 +6892,7 @@ body {
         border-style: solid;
         border-width: 0px;
         cursor: pointer;
-        font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
         font-weight: normal;
         line-height: normal;
         margin: 0 0 1.25rem;
@@ -7540,9 +7541,9 @@ dl.portlet dd > ul > li {
 
 /*my fair home*/
 .site-myfairhome, .section-myfairhome, .section-rumahkuyangadil, .section-e2be19e49e32e41e23e01e41e1fe23e4c {
-  font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
   .site-myfairhome #sidebar-left dt.portletHeader, .site-myfairhome #sidebar-right dt.portletHeader, .site-myfairhome nav.primary-nav, .section-myfairhome #sidebar-left dt.portletHeader, .section-myfairhome #sidebar-right dt.portletHeader, .section-myfairhome nav.primary-nav, .section-rumahkuyangadil #sidebar-left dt.portletHeader, .section-rumahkuyangadil #sidebar-right dt.portletHeader, .section-rumahkuyangadil nav.primary-nav, .section-e2be19e49e32e41e23e01e41e1fe23e4c #sidebar-left dt.portletHeader, .section-e2be19e49e32e41e23e01e41e1fe23e4c #sidebar-right dt.portletHeader, .section-e2be19e49e32e41e23e01e41e1fe23e4c nav.primary-nav {
-    font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
   .site-myfairhome #sidebar-left dt.portletHeader, .site-myfairhome #sidebar-right dt.portletHeader, .section-myfairhome #sidebar-left dt.portletHeader, .section-myfairhome #sidebar-right dt.portletHeader, .section-rumahkuyangadil #sidebar-left dt.portletHeader, .section-rumahkuyangadil #sidebar-right dt.portletHeader, .section-e2be19e49e32e41e23e01e41e1fe23e4c #sidebar-left dt.portletHeader, .section-e2be19e49e32e41e23e01e41e1fe23e4c #sidebar-right dt.portletHeader {
     text-transform: none !important; }
   .site-myfairhome input[type="button"], .site-myfairhome input[type="reset"], .site-myfairhome input[type="submit"], .site-myfairhome button, .site-myfairhome .button, .section-myfairhome input[type="button"], .section-myfairhome input[type="reset"], .section-myfairhome input[type="submit"], .section-myfairhome button, .section-myfairhome .button, .section-rumahkuyangadil input[type="button"], .section-rumahkuyangadil input[type="reset"], .section-rumahkuyangadil input[type="submit"], .section-rumahkuyangadil button, .section-rumahkuyangadil .button, .section-e2be19e49e32e41e23e01e41e1fe23e4c input[type="button"], .section-e2be19e49e32e41e23e01e41e1fe23e4c input[type="reset"], .section-e2be19e49e32e41e23e01e41e1fe23e4c input[type="submit"], .section-e2be19e49e32e41e23e01e41e1fe23e4c button, .section-e2be19e49e32e41e23e01e41e1fe23e4c .button {
@@ -7554,11 +7555,13 @@ dl.portlet dd > ul > li {
   .site-myfairhome .nav-container button, .section-myfairhome .nav-container button, .section-rumahkuyangadil .nav-container button, .section-e2be19e49e32e41e23e01e41e1fe23e4c .nav-container button {
     background-color: white; }
 
-.section-myanmar #content, li#portaltab-myanmar {
-  font-family: winresea, newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .section-myanmar #content h1, .section-myanmar #content h2, .section-myanmar #content h3, .section-myanmar #content h4, .section-myanmar #content h5, .section-myanmar #content h6, li#portaltab-myanmar h1, li#portaltab-myanmar h2, li#portaltab-myanmar h3, li#portaltab-myanmar h4, li#portaltab-myanmar h5, li#portaltab-myanmar h6 {
-    font-family: winresea, newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
+/*.section-myanmar #content,
+li#portaltab-myanmar{
+	font-family: winresea, newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	h1,h2,h3,h4,h5,h6{
+		font-family: winresea, newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+}*/
 #mfh-pledge-title {
   margin-top: 40px;
   font-size: 36px;
@@ -9496,7 +9499,7 @@ input[type="button"], input[type="reset"], input[type="submit"] {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
