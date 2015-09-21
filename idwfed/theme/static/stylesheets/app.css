@@ -1412,7 +1412,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 150%;
@@ -2236,7 +2236,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
+      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif;
       font-size: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -2628,7 +2628,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4218,7 +4218,7 @@ label.error {
 
 .label {
   font-weight: normal;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -4593,7 +4593,7 @@ ul.pagination {
     color: #eeeeee;
     font-weight: normal;
     font-size: 1rem;
-    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
+    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif; }
   .pricing-table .price {
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
@@ -4601,7 +4601,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
+    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif; }
   .pricing-table .description {
     background-color: white;
     padding: 0.9375rem;
@@ -4872,7 +4872,7 @@ dialog {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem;
@@ -4888,7 +4888,7 @@ dialog {
     .side-nav li.active > a:first-child:not(.button) {
       color: #000ac5;
       font-weight: normal;
-      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
+      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -4998,7 +4998,7 @@ dialog {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
+    font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -5292,7 +5292,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto Condensed", "Times New Roman", "Georgia", serif;
+  font-family: "Roboto Condensed", "Times New Roman", "Georgia", "Myanmar Sans Pro", serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -5545,7 +5545,7 @@ blockquote, blockquote p {
       background-color: #efefef;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
+      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
         background-color: #e1e1e1; }
@@ -5843,7 +5843,7 @@ meta.foundation-mq-topbar {
       color: white;
       padding: 12px 0 12px 0;
       padding-left: 15px;
-      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
+      font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -6892,7 +6892,7 @@ body {
         border-style: solid;
         border-width: 0px;
         cursor: pointer;
-        font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
+        font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif;
         font-weight: normal;
         line-height: normal;
         margin: 0 0 1.25rem;
@@ -9499,7 +9499,7 @@ input[type="button"], input[type="reset"], input[type="submit"] {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif;
+  font-family: Aleo, "Helvetica Neue", "Helvetica", Helvetica, Arial, "Myanmar Sans Pro", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
