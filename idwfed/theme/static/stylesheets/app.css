@@ -7565,7 +7565,7 @@ li#portaltab-myanmar{
 #mfh-pledge-title {
   margin-top: 40px;
   font-size: 36px;
-  font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: newslab, 'Roboto Condensed', Norwester, "Helvetica Neue", Helvetica, Arial, 'Myanmar Sans Pro', sans-serif; }
 
 ul.pledge-item {
   list-style-image: url('../pd_img/check-icon.png'); }
@@ -8506,7 +8506,7 @@ fieldset, .editionComment {
 
 /* Emulates the styling from the h1 tag */
 #content .field input[type="text"][name$=".title"], #archetypes-fieldname-title input {
-  font-family: "Helvetica Neue", Arial, FreeSans, sans-serif;
+  font-family: "Helvetica Neue", Arial, FreeSans, 'Myanmar Sans Pro', sans-serif;
   line-height: 125%;
   color: Black;
   letter-spacing: -0.05em;
@@ -8518,7 +8518,7 @@ fieldset, .editionComment {
 
 /* Emulates styling from the description's view */
 #content .field textarea[name$=".description"], #archetypes-fieldname-description textarea#description {
-  font-family: Arial, FreeSans, sans-serif;
+  font-family: Arial, FreeSans, 'Myanmar Sans Pro', sans-serif;
   color: #666666;
   font-size: 1.25em;
   font-weight: bold; }
@@ -8530,7 +8530,7 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
   background-color: lightyellow; }
 
 #content textarea {
-  font: 100% Monaco, "Courier New", Courier, monospace;
+  font: 100% Monaco, "Courier New", Courier, 'Myanmar Sans Pro', monospace;
   width: 100%; }
 
 #content select {
