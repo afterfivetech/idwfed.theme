@@ -15,6 +15,7 @@
     <plone:static directory="static" type="theme" />
 
     <include package=".portlet"/>
+    <include package=".viewlet"/>
     <browser:jbot
         directory="jbot"
         layer=".interfaces.IProductSpecific" />
