@@ -23,11 +23,11 @@
 
     <dl class="event details" summary="Event details" i18n:attributes="summary summary_event_details">
 
-      <tal:cond tal:condition="data/title">
-      <dt i18n:translate="event_what">What</dt>
+      <!--<tal:cond tal:condition="data/title">
+      <dt i18n:translate="event_what">What</dt>-->
       <!--<dd itemprop="eventType" class="category" tal:repeat="item data/subjects" tal:content="item" />-->
-      <dd itemprop="eventType" class="category" tal:content="data/title" />
-      </tal:cond>
+      <!--<dd itemprop="eventType" class="category" tal:content="data/title" />
+      </tal:cond>-->
 
       <dt i18n:translate="event_when">When</dt>
       <dd tal:define="start_tzname data/timezone;
