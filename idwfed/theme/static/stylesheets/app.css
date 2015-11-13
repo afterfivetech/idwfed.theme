@@ -7497,6 +7497,11 @@ footer .footer-bottom {
   dl.theme-portlet {
     height: 350px; } }
 
+/*medium up*/
+@media only screen and (min-width:40.063em) {
+  .event.details {
+    max-width: 500px; } }
+
 /*DISQUS*/
 #disqus_thread_wrapper {
   background-color: white;
