@@ -7615,15 +7615,22 @@ dl.pledge-user-details dd {
   margin: -8% 0;
   vertical-align: middle; }
 
-.portlet.portletStaticText.portlet-static-navigation dd ul {
-  margin: 0 -1em;
-  list-style: none; }
-  .portlet.portletStaticText.portlet-static-navigation dd ul li {
-    padding: 0 1em;
-    border-bottom: 0.1em dotted #dddddd;
-    line-height: 2em; }
-    .portlet.portletStaticText.portlet-static-navigation dd ul li a {
-      color: #fc7045; }
+.portlet.portletStaticText.portlet-static-navigation dt {
+  display: none; }
+.portlet.portletStaticText.portlet-static-navigation dd {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
+  .portlet.portletStaticText.portlet-static-navigation dd ul {
+    margin: 0 -1em;
+    list-style: none; }
+    .portlet.portletStaticText.portlet-static-navigation dd ul li {
+      padding: 0 1em;
+      border-bottom: 0.1em dotted #dddddd;
+      line-height: 2em; }
+      .portlet.portletStaticText.portlet-static-navigation dd ul li a {
+        color: #fc7045; }
+    .portlet.portletStaticText.portlet-static-navigation dd ul li:last-child {
+      border-bottom: none; }
 
 /* @group Content Area */
 /* Editor styles */
