@@ -7615,6 +7615,16 @@ dl.pledge-user-details dd {
   margin: -8% 0;
   vertical-align: middle; }
 
+.portlet.portletStaticText.portlet-static-navigation dd ul {
+  margin: 0 -1em;
+  list-style: none; }
+  .portlet.portletStaticText.portlet-static-navigation dd ul li {
+    padding: 0 1em;
+    border-bottom: 0.1em dotted #dddddd;
+    line-height: 2em; }
+    .portlet.portletStaticText.portlet-static-navigation dd ul li a {
+      color: #fc7045; }
+
 /* @group Content Area */
 /* Editor styles */
 #content .discreet, #sidebar .discreet, .portletStaticText .discreet {
