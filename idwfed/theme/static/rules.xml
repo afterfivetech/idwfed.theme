@@ -502,21 +502,21 @@
         
         <!--footer top-->
         <replace css:theme-children="div.footer-top > div > div:nth-child(1)">
-            <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager1 > div:nth-child(1) > dl">
+            <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager1 > div > dl">
                 <dl class="f-top-portlet">
                     <xsl:apply-templates css:select="dl > *" />
                 </dl>
             </xsl:for-each>
         </replace>
         <replace css:theme-children="div.footer-top > div > div:nth-child(2)">
-            <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager2 > div:nth-child(1) > dl">
+            <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager2 > div > dl">
                 <dl class="f-top-portlet">
                     <xsl:apply-templates css:select="dl > *" />
                 </dl>
             </xsl:for-each>
         </replace>
         <replace css:theme-children="div.footer-top > div > div:nth-child(3)">
-            <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager3 > div:nth-child(1) > dl">
+            <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager3 > div > dl">
                 <dl class="f-top-portlet">
                     <xsl:apply-templates css:select="dl > *" />
                 </dl>
