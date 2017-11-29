@@ -9864,3 +9864,8 @@ form[action="enl_subscribers_view"] input[type="submit"] {
 /*link*/
 #login-new-user a, #login-forgotten-password a {
   color: #fc7045; }
+
+.site-fr div.footer-top > div > div:nth-child(1) > dl:nth-child(2),
+.site-fr div.footer-top > div > div:nth-child(2) > dl:nth-child(2),
+.site-fr div.footer-top > div > div:nth-child(3) > dl:nth-child(2){
+  display: none !important; }
