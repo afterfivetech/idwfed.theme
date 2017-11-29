@@ -501,9 +501,30 @@
         <theme href="content.html"/>
         
         <!--footer top-->
-        <replace css:theme-children="div.footer-top > div > div:nth-child(1) > dl" css:content-children="#portlets-footer > div.cell.FooterPortletManager1 > div > dl" />
-        <replace css:theme-children="div.footer-top > div > div:nth-child(2) > dl" css:content-children="#portlets-footer > div.cell.FooterPortletManager2 > div > dl" />
-        <replace css:theme-children=".contact-us" css:content-children="#portlets-footer > div.cell.FooterPortletManager3 > div > dl" />
+        <replace css:theme-children="div.footer-top > div > div:nth-child(1)">
+            <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager1 > div:nth-child(1) > dl">
+                <dl class="f-top-portlet">
+                    <xsl:apply-templates css:select="dl > *" />
+                </dl>
+            </xsl:for-each>
+        </replace>
+        <replace css:theme-children="div.footer-top > div > div:nth-child(2)">
+            <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager2 > div:nth-child(1) > dl">
+                <dl class="f-top-portlet">
+                    <xsl:apply-templates css:select="dl > *" />
+                </dl>
+            </xsl:for-each>
+        </replace>
+        <replace css:theme-children="div.footer-top > div > div:nth-child(3)">
+            <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager3 > div:nth-child(1) > dl">
+                <dl class="f-top-portlet">
+                    <xsl:apply-templates css:select="dl > *" />
+                </dl>
+            </xsl:for-each>
+        </replace>
+
+        <!-- <replace css:theme-children="div.footer-top > div > div:nth-child(2) > dl" css:content-children="#portlets-footer > div.cell.FooterPortletManager2 > div > dl" />
+        <replace css:theme-children=".contact-us" css:content-children="#portlets-footer > div.cell.FooterPortletManager3 > div > dl" /> -->
         <replace css:theme-children=".footer-top > div > div:nth-child(4)">
             <xsl:for-each css:select="#portlets-footer > div.cell.FooterPortletManager4 > div.portletWrapper">
                 <xsl:if test="div">
