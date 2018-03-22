@@ -9847,6 +9847,8 @@ form[action="enl_subscribers_view"] input[type="submit"] {
 
 #portal-column-content h1 a, #portal-column-content h2 a, #portal-column-content h3 a, #portal-column-content h4 a, #portal-column-content h5 a, #portal-column-content h6 a {
   color: #00033f; }
+#sidebar-right a,
+#sidebar-left a,
 #portal-column-content a {
   color: #fc7045; }
 
