@@ -7258,10 +7258,6 @@ nav.dropdown-menu {
   .slider-container .jssora21rdn {
     background-position: -303px -33px; }
 
-/*focus area*/
-.focus-container.home {
-  min-height: 400px; }
-
 .focus-container.inner {
   background: url(http://idwfed.org/en/media/header_background.jpg) top right repeat #41515c;
   min-height: 100px; }
@@ -9080,6 +9076,10 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 /*large up*/
 @media only screen and (min-width:64em) {
+  /*focus area*/
+  .focus-container.home {
+    min-height: 400px; }
+
   .join-wrapper {
     position: absolute;
     top: 25%;
