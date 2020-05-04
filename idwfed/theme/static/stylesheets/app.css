@@ -9062,15 +9062,15 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   bottom: 5%;
   right: 5%;
   font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  width: 20%;
-  text-align: right;
+  width: 30%;
+  text-align: right;.login-wrapper a
   z-index: 13; }
   .login-wrapper a {
     line-height: 40px;
     font-weight: 600;
     font-size: 32px;
     text-transform: uppercase;
-    padding: 20px 5%;
+    padding: 20px 5px;
     color: #f7b500;
     text-shadow: -1px 1px 5px #00033f; }
 
@@ -9431,7 +9431,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     text-decoration: none;
     font-size: 32px;
     text-shadow: -1px 1px 5px #00033f;
-    width: 80%; } }
+    width: 70%; } }
 
 /* element to "keep/ fill" the space of the content, gets intrinsic height via js */
 .sy-filler {
