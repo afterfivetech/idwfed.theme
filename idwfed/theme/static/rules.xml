@@ -259,7 +259,30 @@
                 </ul>                           
                 <!--********-->
                 <div class="login-wrapper hide-for-small hide-for-medium show-for-large-up">
-                    <xsl:if css:test="#personaltools-login">
+                    <xsl:if css:test="#personaltools-join">
+                        <xsl:element name="a">
+                            <xsl:if test="/html[@lang='es']">
+                                <xsl:attribute name="href">
+                                    /es/@@register
+                                </xsl:attribute>
+                                Regístrese Ahora!
+                            </xsl:if>
+                            <xsl:if test="/html[@lang='en']">
+                                <xsl:attribute name="href">
+                                    /en/@@register
+                                </xsl:attribute>
+                                Register Now!
+                            </xsl:if>
+                            <xsl:if test="/html[@lang='fr']">
+                                <xsl:attribute name="href">
+                                    /fr/@@register
+                                </xsl:attribute>
+                                Inscrivez-vous!
+                            </xsl:if>
+                        </xsl:element>
+                    </xsl:if>
+                    <a style="padding: 0 5px !important">|</a>
+                    <xsl:if css:test="#personaltools-login">                                               
                         <xsl:element name="a">
                             <xsl:attribute name="href">
                                 <xsl:value-of select="//a[@id='personaltools-login']/@href" />
@@ -277,7 +300,7 @@
                     </xsl:if>
                 </div>
                 <!--join-->
-                <xsl:if css:test="#personaltools-join">
+                <!--<xsl:if css:test="#personaltools-join">
                     <div class="join-wrapper">
                         <xsl:element name="a">
                             <xsl:if test="/html[@lang='es']">
@@ -300,7 +323,7 @@
                             </xsl:if>
                         </xsl:element>
                     </div>
-                </xsl:if>
+                </xsl:if>-->
             </replace>
             
             <!--updates-->
