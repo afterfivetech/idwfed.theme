@@ -9063,8 +9063,8 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   right: 5%;
   font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   width: 30%;
-  text-align: right;.login-wrapper a
-  z-index: 14 !important; }
+  text-align: right;
+  z-index: 13; }
   .login-wrapper a {
     line-height: 40px;
     font-weight: 600;
