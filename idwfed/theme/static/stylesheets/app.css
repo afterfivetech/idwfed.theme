@@ -9064,7 +9064,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   width: 30%;
   text-align: right;.login-wrapper a
-  z-index: 13; }
+  z-index: 14 !important; }
   .login-wrapper a {
     line-height: 40px;
     font-weight: 600;
