@@ -280,8 +280,8 @@
                                 Inscrivez-vous!
                             </xsl:if>
                         </xsl:element>
-                    </xsl:if>
-                    <a style="padding: 0 5px !important">|</a>
+                        <a style="padding: 0 5px !important">|</a>
+                    </xsl:if>                    
                     <xsl:if css:test="#personaltools-login">                                               
                         <xsl:element name="a">
                             <xsl:attribute name="href">
