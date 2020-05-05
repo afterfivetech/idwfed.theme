@@ -258,7 +258,7 @@
                     </xsl:for-each>
                 </ul>                           
                 <!--********-->
-                <div class="login-wrapper hide-for-small hide-for-medium show-for-large-up">
+                <div class="login-wrapper hide-for-small hide-for-medium hide-for-large-up">
                     <xsl:if css:test="#personaltools-join">
                         <xsl:element name="a">
                             <xsl:if test="/html[@lang='es']">

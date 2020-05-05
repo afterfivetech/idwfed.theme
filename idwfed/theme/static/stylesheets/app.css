@@ -9431,7 +9431,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     text-decoration: none;
     font-size: 32px;
     text-shadow: -1px 1px 5px #00033f;
-    width: 70%; } }
+    width: 100%; } }
 
 /* element to "keep/ fill" the space of the content, gets intrinsic height via js */
 .sy-filler {
